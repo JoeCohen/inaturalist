@@ -1,0 +1,2997 @@
+repo_name: JoeCohen/inaturalist
+report_id: 50b8a1c664f7e546317515d4a9a5a92e
+repo_type: Public
+timestamp: '2023-11-16T04:09:30+00:00'
+requested_by: kueda
+provider: github
+branch: main
+detected_tools_count: 215
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: CoffeeScript
+  description: A little language that compiles into JavaScript
+  website_url: http://coffeescript.org/
+  version: 2.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1178/slQydAMv.png
+  detection_source_url: Gemfile.lock
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/src/infinite-scroll.coffee
+  last_updated_by: Patrick Leary
+  last_updated_on: 2015-11-13 02:45:11.000000000 Z
+- name: D
+  description: Modern convenience. Modeling power. Native efficiency.
+  website_url: http://dlang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3117/d-5.png
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-02 23:41:58.000000000 Z
+- name: Gherkin
+  description: A plain-text language with a simple structure
+  website_url: https://cucumber.io/docs/gherkin/reference/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2460/default_aff27c02548fadb1b7e6f85a2b0da1c5dca5cc08.png
+  detection_source: Repo Metadata
+- name: HAML
+  description: HTML Abstraction Markup Language - A Markup Haiku
+  website_url: http://haml.info/
+  version: 5.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1169/Picture_2.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2010-11-09 06:53:27.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: vendor/assets/bower_components/angular-truncate/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-14 01:05:22.000000000 Z
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  version: 2.6.5
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile.lock
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2012-09-26 08:56:49.000000000 Z
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source: tools/create_states_simplified.sql
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2013-02-08 23:28:15.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source: vendor/assets/bower_components/angular-bootstrap/package.json
+  last_updated_by: Amanda Bullington
+  last_updated_on: 2021-08-12 23:45:18.000000000 Z
+- name: C3.js
+  description: A D3-based reusable chart library
+  website_url: http://c3js.org/
+  version: 0.4.23
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2016-02-23 05:11:43.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: vendor/assets/bower_components/angular-truncate/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-04 06:35:29.000000000 Z
+- name: Rails
+  description: Web development that doesn't hurt
+  website_url: http://rubyonrails.org/
+  version: 5.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/990/x57_Lorv.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2021-09-17 01:55:05.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2018-07-19 18:42:55.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.0.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2018-11-05 23:03:33.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2020-05-07 21:30:02.000000000 Z
+- name: redux-thunk
+  description: Thunk middleware for Redux
+  website_url: https://github.com/gaearon/redux-thunk
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/5448/13142323.png
+  detection_source: package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2018-11-05 23:03:33.000000000 Z
+- name: Amazon S3
+  description: Store and retrieve any amount of data, at any time, from anywhere on
+    the web
+  website_url: http://aws.amazon.com/s3
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/25/amazon-s3.png
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2010-11-09 06:53:27.000000000 Z
+- name: Memcached
+  description: High-performance, distributed memory object caching system
+  website_url: http://memcached.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1040/hDNnpa4a_400x400.jpg
+  detection_source: docker-compose.yml
+  last_updated_by: todtb
+  last_updated_on: 2020-12-27 04:05:48.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi
+  last_updated_on: 2021-08-16 20:15:27.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source: docker-compose.yml
+  last_updated_by: todtb
+  last_updated_on: 2020-12-27 04:05:48.000000000 Z
+- name: ent
+  description: An entity framework for Go
+  website_url: https://entgo.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/21146/default_3b393819f74c4cb10f98fa9e683fa28cf6cc85f5.png
+  detection_source: vendor/assets/bower_components/angular/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-02 23:41:58.000000000 Z
+- name: ws
+  description: A Node.js WebSocket library
+  website_url: https://github.com/websockets/ws
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/11381/no-img-open-source.png
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-10-22 18:11:11.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2020-04-21 18:13:23.000000000 Z
+- name: Capistrano
+  description: A remote server automation and deployment tool written in Ruby
+  website_url: http://capistranorb.com/
+  version: 3.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/661/5da4e1d78e930197cb7dc002ceafdfda.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi
+  last_updated_on: 2021-08-16 20:15:27.000000000 Z
+- name: Capybara
+  description: Acceptance test framework for web applications
+  website_url: http://jnicklas.github.io/capybara/
+  version: 3.35.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2595/capybara.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi
+  last_updated_on: 2021-08-16 20:15:27.000000000 Z
+- name: Coveralls
+  description: Track your project's code coverage over time, changes to files, and
+    badge your GitHub repo
+  website_url: https://coveralls.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/680/a43e4a04cb9f778842de43f95db59a14.png
+  detection_source: vendor/assets/bower_components/angular-moment/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2016-01-22 18:29:11.000000000 Z
+- name: Cucumber
+  description: Simple, human collaboration.
+  website_url: https://cukes.info/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2544/jasVAxyJ.png
+  detection_source: config/cucumber.yml
+  last_updated_by: Patrick Leary
+  last_updated_on: 2016-01-13 17:49:50.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2018-11-05 23:03:33.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/CI.yml"
+  last_updated_by: Patrick Leary
+  last_updated_on: 2020-12-04 17:20:47.000000000 Z
+- name: Grunt
+  description: The JavaScript Task Runner
+  website_url: http://gruntjs.com/
+  version: 0.4.5
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/845/falgg2jybmhgk16y62lr.png
+  detection_source_url: vendor/assets/bower_components/angular-moment/package.json
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2015-11-13 02:45:11.000000000 Z
+- name: JSHint
+  description: A Static Code Analysis Tool for JavaScript
+  website_url: http://www.jshint.com/about/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/1945/mzh2bRes_400x400.png
+  detection_source: vendor/assets/bower_components/angular-truncate/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-04 06:35:29.000000000 Z
+- name: Jasmine
+  description: DOM-less simple JavaScript testing framework
+  website_url: http://jasmine.github.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
+  detection_source: vendor/assets/bower_components/angular-moment/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2016-01-22 18:29:11.000000000 Z
+- name: Karma
+  description: Spectacular Test Runner for JavaScript
+  website_url: http://karma-runner.github.io/
+  version: 0.13.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
+  detection_source_url: vendor/assets/bower_components/angular-moment/package.json
+  detection_source: vendor/assets/bower_components/angular-truncate/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-11-26 02:41:31.000000000 Z
+- name: Kibana
+  description: Visualize your Elasticsearch data and navigate the Elastic Stack
+  website_url: https://www.elastic.co/kibana
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/1722/Image_2019-05-20_at_4.53.31_PM.png
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2010-11-09 06:53:27.000000000 Z
+- name: Logstash
+  description: Collect, Parse, &amp; Enrich Data
+  website_url: http://logstash.net/
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/1683/preview.png
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2010-11-09 06:53:27.000000000 Z
+- name: New Relic
+  description: New Relic is the industry’s largest and most comprehensive cloud-based
+    observability platform.
+  website_url: http://newrelic.com
+  open_source: false
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Performance Monitoring
+  image_url: https://img.stackshare.io/service/103/default_193410db3a7e419c7b436961bf41d733c7346b59.png
+  detection_source: Gemfile
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2019-04-24 18:45:17.000000000 Z
+- name: PhantomJS
+  description: Scriptable Headless WebKit
+  website_url: https://phantomjs.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/1832/phantomjs.png
+  detection_source: vendor/assets/bower_components/angular-moment/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2016-01-22 18:29:11.000000000 Z
+- name: Protractor
+  description: End-to-end test framework for Angular and AngularJS applications
+  website_url: http://angular.github.io/protractor
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1754/protractor-logo1.png
+  detection_source_url: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2015-11-13 02:45:11.000000000 Z
+- name: Puma
+  description: A Modern, Concurrent Web Server for Ruby
+  website_url: http://puma.io/
+  version: 5.5.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1055/favicon.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2010-11-09 06:53:27.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source: vendor/assets/bower_components/angular-truncate/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-14 01:05:22.000000000 Z
+- name: RSpec
+  description: Behaviour Driven Development for Ruby
+  website_url: https://rspec.info/
+  version: 3.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2539/logo.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2010-11-09 06:53:27.000000000 Z
+- name: RuboCop
+  description: A Ruby static code analyzer, based on the community Ruby style guide
+  website_url: http://batsov.com/rubocop/
+  version: 1.21.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/2643/rubocop.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2010-11-09 06:53:27.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2015-11-13 02:45:11.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: vendor/assets/bower_components/angular-moment/.travis.yml
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-04 06:35:29.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 4.44.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Amanda Bullington
+  last_updated_on: 2020-12-02 19:52:19.000000000 Z
+- name: gulp
+  description: The streaming build system
+  website_url: http://gulpjs.com/
+  version: 4.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/844/iruTC031.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2019-07-12 17:36:41.000000000 Z
+- name: hub
+  description: Wraps Git with extra features that make working with GitHub easier
+    (by GitHub)
+  website_url: http://hub.github.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Git Tools
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-02 23:41:58.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: vendor/assets/bower_components/angular/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-10-22 18:11:11.000000000 Z
+- name: Paperclip
+  description: 'A file attachment management for ActiveRecord '
+  website_url: https://github.com/thoughtbot/paperclip
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Uploads
+  image_url: https://img.stackshare.io/service/2542/AqsQWFu-_400x400.jpg
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi
+  last_updated_on: 2021-08-16 20:15:27.000000000 Z
+- name: Twilio SendGrid
+  description: Email Delivery. Simplified.
+  website_url: http://sendgrid.com
+  open_source: false
+  hosted_saas: true
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
+  detection_source: config/environments/production.rb
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2010-11-09 06:53:27.000000000 Z
+- name: Devise
+  description: Flexible authentication solution for Rails with Warden
+  website_url: https://github.com/plataformatec/devise
+  version: 4.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/1432/devise.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Patrick Leary
+  last_updated_on: 2019-01-20 19:13:10.000000000 Z
+- name: Elasticsearch
+  description: Open Source, Distributed, RESTful Search Engine
+  website_url: https://www.elastic.co/products/elasticsearch
+  version: 7.13.1
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
+  detection_source_url: Gemfile.lock
+  detection_source: docker-compose.yml
+  last_updated_by: Patrick Leary
+  last_updated_on: 2019-09-11 16:13:54.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.15
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-05-06 20:02:45.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.22.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: package-lock.json
+  detection_source: vendor/assets/bower_components/moment/bower.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2016-01-22 18:29:11.000000000 Z
+- name: OmniAuth
+  description: OmniAuth is a flexible authentication system utilizing Rack middleware.
+  website_url: https://github.com/intridea/omniauth
+  version: 1.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/1433/omniauth.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2010-11-09 06:53:27.000000000 Z
+- name: OpenLayers
+  description: A high-performance, feature-packed library for all your mapping needs
+  website_url: http://openlayers.org/
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Mapping APIs
+  image_url: https://img.stackshare.io/service/3208/397ce8027eb036960f00dd5153d41993.png
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2015-11-13 02:45:11.000000000 Z
+- name: Ramda
+  description: A practical functional library for JavaScript programmers
+  website_url: https://ramdajs.com/
+  version: 0.20.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3076/Ramda-01.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2016-04-04 14:37:13.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: UglifyJS
+  description: A JavaScript parser, minifier, compressor and beautifier toolkit.
+  website_url: http://lisperator.net/uglifyjs/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2203/default_9058af6f02375a99f634f537d727e32df92ac262.png
+  detection_source: Gemfile
+  last_updated_by: Patrick Leary
+  last_updated_on: 2019-01-20 19:13:10.000000000 Z
+- name: XSLT
+  description: The official Twitter account for the sum of all knowledge, Wikipedia.
+    Overseen by @jeffelder.
+  website_url: https://en.wikipedia.org/wiki/XSLT
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4253/nZXfdUQq_normal.jpg
+  detection_source: Repo Metadata
+- name: js
+  website_url: www.js.com
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/5588/jscom.png
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-02 23:41:58.000000000 Z
+- name: test
+  website_url: test
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/5477/no-img-open-source.png
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-04 06:35:29.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-05-06 20:05:35.000000000 Z
+- name: "@babel/polyfill"
+  description: Provides polyfills necessary for a full ES2015+ environment
+  package_url: https://www.npmjs.com/@babel/polyfill
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16039/default_b8a893285867e41b5fc4a7631d8fc2da834d778c.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2020-04-21 18:13:23.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2020-04-21 18:13:23.000000000 Z
+- name: "@babel/preset-react"
+  description: Babel preset for all React plugins
+  package_url: https://www.npmjs.com/@babel/preset-react
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2021-11-10 03:32:26.000000000 Z
+- name: "@octokit/rest"
+  description: GitHub REST API client for Node.js
+  package_url: https://www.npmjs.com/@octokit/rest
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16999/default_43f23668e39c9b3381720c9c76540776b8a49167.png
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-02 23:41:58.000000000 Z
+- name: "@types/googlemaps"
+  description: TypeScript definitions for Google Maps JavaScript API
+  package_url: https://www.npmjs.com/@types/googlemaps
+  version: 3.30.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17642/default_9126b5a628d81e3d41c9b1190587ab1aec9165c5.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2018-11-05 23:03:33.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 16.4.18
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2021-11-10 03:32:26.000000000 Z
+- name: acorn
+  description: ECMAScript parser
+  package_url: https://www.npmjs.com/acorn
+  version: 7.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16344/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2020-03-18 00:52:46.000000000 Z
+- name: angular
+  description: HTML enhanced for web apps
+  package_url: https://www.npmjs.com/angular
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16174/default_351a89f21bfb241e8dabeb1444cf56f529948708.png
+  detection_source: vendor/assets/bower_components/angular/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-02 23:41:58.000000000 Z
+- name: angular-route
+  description: AngularJS router module
+  package_url: https://www.npmjs.com/angular-route
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18069/image.png
+  detection_source: vendor/assets/bower_components/angular-route/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2015-11-13 02:45:11.000000000 Z
+- name: angular-ui-bootstrap
+  description: Native AngularJS
+  package_url: https://www.npmjs.com/angular-ui-bootstrap
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18273/default_75898a30f0389712301325cbd5e5019e01269891.png
+  detection_source: vendor/assets/bower_components/angular-bootstrap/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-02 23:41:58.000000000 Z
+- name: babel-eslint
+  description: Custom parser for ESLint
+  package_url: https://www.npmjs.com/babel-eslint
+  version: 10.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2020-04-21 18:13:23.000000000 Z
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 8.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Amanda Bullington
+  last_updated_on: 2021-03-03 03:08:59.000000000 Z
+- name: cli
+  description: A tool for rapidly building command line apps
+  package_url: https://www.npmjs.com/cli
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17384/default_b39374c3a74b433364bfdbff07be26214bf186fd.png
+  detection_source: vendor/assets/bower_components/angular/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-02 23:41:58.000000000 Z
+- name: co
+  description: Generator async control flow goodness
+  package_url: https://www.npmjs.com/co
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16007/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-02 23:41:58.000000000 Z
+- name: coffeelint
+  description: Lint your CoffeeScript
+  package_url: https://www.npmjs.com/coffeelint
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16616/default_f7592cb347fae67ce7c7f221ddd5fd2cb0afc28f.png
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2015-11-13 02:45:11.000000000 Z
+- name: color-convert
+  description: Plain color conversion functions
+  package_url: https://www.npmjs.com/color-convert
+  version: 1.9.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18119/image.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2020-03-31 16:35:21.000000000 Z
+- name: component
+  description: Component package manager consuming git repositories
+  package_url: https://www.npmjs.com/component
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18220/default_46cc7e5b7a8c78af11a3ee7db2fc5fe39f295a6e.png
+  detection_source: vendor/assets/bower_components/angular-bootstrap/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-02 23:41:58.000000000 Z
+- name: conf
+  description: Simple config handling for your app or module
+  package_url: https://www.npmjs.com/conf
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17998/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
+  detection_source: vendor/assets/bower_components/angular-truncate/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-14 01:05:22.000000000 Z
+- name: connect
+  description: High performance middleware framework
+  package_url: https://www.npmjs.com/connect
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16202/default_2c2f2c7b016f84c0fad2576cb986cb14a5dbbc2f.png
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2015-11-13 02:45:11.000000000 Z
+- name: cross-fetch
+  description: Universal WHATWG Fetch API for Node
+  package_url: https://www.npmjs.com/cross-fetch
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17537/default_1922051267fa78212ab6eb1238cdf6aab8771493.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2021-03-16 21:15:15.000000000 Z
+  vulnerabilities:
+  - name: Incorrect Authorization in cross-fetch
+    cve_id: CVE-2022-1365
+    cve_url: https://github.com/advisories/GHSA-7gc6-qh9x-w6h8
+    detected_date: Apr 29
+    severity: moderate
+    first_patched: 3.1.5
+- name: d3
+  description: Data-Driven Documents
+  package_url: https://www.npmjs.com/d3
+  version: 3.5.17
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16224/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2016-02-23 05:11:43.000000000 Z
+- name: debug
+  description: Small debugging utility
+  package_url: https://www.npmjs.com/debug
+  version: 3.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2018-08-22 14:59:49.000000000 Z
+  vulnerabilities:
+  - name: Regular Expression Denial of Service in debug
+    cve_id: CVE-2017-16137
+    cve_url: https://github.com/advisories/GHSA-gxpj-cx7g-858c
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.2.7
+- name: eslint-config-airbnb
+  description: Airbnb's ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb
+  version: 17.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2020-04-21 18:13:23.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2020-04-21 18:13:23.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2020-04-21 18:13:23.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.11.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2021-11-10 03:32:26.000000000 Z
+- name: gm
+  description: GraphicsMagick and ImageMagick for node.js
+  package_url: https://www.npmjs.com/gm
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16804/default_55e3ea76a7929df1b71c5ea0c9b4130cc87323a4.png
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2015-11-13 02:45:11.000000000 Z
+- name: grunt-cli
+  description: The grunt command line interface
+  package_url: https://www.npmjs.com/grunt-cli
+  version: 0.1.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16021/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: vendor/assets/bower_components/angular-moment/package.json
+  detection_source: vendor/assets/bower_components/angular-moment/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2016-01-22 18:29:11.000000000 Z
+- name: grunt-coffeelint
+  description: Lint your Coffee
+  package_url: https://www.npmjs.com/grunt-coffeelint
+  version: 0.0.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16862/default_1b078765f7b7ae4ccce598a7251eb06451511e5e.png
+  detection_source_url: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2015-11-13 02:45:11.000000000 Z
+- name: grunt-contrib-clean
+  description: Clean files and folders
+  package_url: https://www.npmjs.com/grunt-contrib-clean
+  version: 0.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15939/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2015-11-13 02:45:11.000000000 Z
+- name: grunt-contrib-coffee
+  description: Compile CoffeeScript files to JavaScript
+  package_url: https://www.npmjs.com/grunt-contrib-coffee
+  version: 0.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16284/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2015-11-13 02:45:11.000000000 Z
+- name: grunt-contrib-concat
+  description: Concatenate files
+  package_url: https://www.npmjs.com/grunt-contrib-concat
+  version: 0.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16075/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: vendor/assets/bower_components/angular-truncate/package.json
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-14 01:05:22.000000000 Z
+- name: grunt-contrib-connect
+  description: Start a connect web server
+  package_url: https://www.npmjs.com/grunt-contrib-connect
+  version: 0.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16236/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2015-11-13 02:45:11.000000000 Z
+- name: grunt-contrib-jshint
+  description: Validate files with JSHint
+  package_url: https://www.npmjs.com/grunt-contrib-jshint
+  version: 0.11.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15898/default_59a1b5716eefa3750c20936c3d53ff13a6390ee1.png
+  detection_source_url: vendor/assets/bower_components/angular-moment/package.json
+  detection_source: vendor/assets/bower_components/angular-truncate/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2016-01-22 18:29:11.000000000 Z
+- name: grunt-contrib-uglify
+  description: Minify JavaScript files with UglifyJS
+  package_url: https://www.npmjs.com/grunt-contrib-uglify
+  version: 0.9.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15954/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: vendor/assets/bower_components/angular-moment/package.json
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2016-01-22 18:29:11.000000000 Z
+- name: grunt-karma
+  description: Grunt plugin for karma test runner
+  package_url: https://www.npmjs.com/grunt-karma
+  version: 0.12.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16328/default_e8196e273db814cf9be505b35dec386fafb0dbaa.png
+  detection_source_url: vendor/assets/bower_components/angular-moment/package.json
+  detection_source: vendor/assets/bower_components/angular-moment/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2016-01-22 18:29:11.000000000 Z
+  vulnerabilities:
+  - name: Grunt-karma vulnerable to prototype pollution
+    cve_id: CVE-2022-37602
+    cve_url: https://github.com/advisories/GHSA-hcj4-xf6x-63wj
+    detected_date: Oct 20
+    severity: critical
+    first_patched: 
+- name: he
+  description: A robust HTML entities encoder/decoder with full Unicode support
+  package_url: https://www.npmjs.com/he
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17059/default_31b594d049ba66ce98c924544ccc4329a3f2d530.png
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-04 06:35:29.000000000 Z
+- name: http
+  package_url: https://www.npmjs.com/http
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16874/default_768abdabb94806c932ace6262b6bbc8241907245.png
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-02 23:41:58.000000000 Z
+- name: https
+  description: Https mediation
+  package_url: https://www.npmjs.com/https
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17546/default_8d32936cb624bf7f51657c1540463db0a3c4106e.png
+  detection_source: vendor/assets/bower_components/angular/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-02 23:41:58.000000000 Z
+- name: i
+  description: Custom inflections for nodejs
+  package_url: https://www.npmjs.com/i
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17326/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-02 23:41:58.000000000 Z
+- name: immutability-helper
+  description: Mutate a copy of data without changing the original source
+  package_url: https://www.npmjs.com/immutability-helper
+  version: 2.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17042/default_0e6669b56ffe7d68d8118eb8e85d024215fd5906.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2018-11-05 23:03:33.000000000 Z
+- name: ini
+  description: An ini encoder/decoder for node
+  package_url: https://www.npmjs.com/ini
+  version: 1.3.7
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16594/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
+  detection_source_url: package-lock.json
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2015-11-13 02:45:11.000000000 Z
+- name: ip
+  description: "[![]"
+  package_url: https://www.npmjs.com/ip
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16483/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-02 23:41:58.000000000 Z
+- name: is
+  description: The definitive JavaScript type testing library
+  package_url: https://www.npmjs.com/is
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17544/default_e665c133253b5cd434c1991167ebd25dc68f1c17.png
+  detection_source: vendor/assets/bower_components/angular/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-04 06:35:29.000000000 Z
+- name: jasmine-core
+  description: Official packaging of Jasmine's core files for use by Node.js projects
+  package_url: https://www.npmjs.com/jasmine-core
+  version: 2.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15905/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: vendor/assets/bower_components/angular-moment/package.json
+  detection_source: vendor/assets/bower_components/angular-moment/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2016-01-22 18:29:11.000000000 Z
+- name: json-loader
+  description: Json loader module for webpack
+  package_url: https://www.npmjs.com/json-loader
+  version: 0.5.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15995/default_200de1a6fc4121e019ce4a5b0cf9ad37c7756e2d.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2021-01-27 19:15:18.000000000 Z
+- name: jsx-loader
+  description: JSX loader for webpack
+  package_url: https://www.npmjs.com/jsx-loader
+  version: 0.13.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16752/default_c11d90814ded8fcd305b22fdc42b42a3111f1f6d.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2021-01-27 19:15:18.000000000 Z
+- name: karma-coverage
+  description: A Karma plugin. Generate code coverage
+  package_url: https://www.npmjs.com/karma-coverage
+  version: 0.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15951/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: vendor/assets/bower_components/angular-moment/package.json
+  detection_source: vendor/assets/bower_components/angular-moment/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2016-01-22 18:29:11.000000000 Z
+- name: karma-jasmine
+  description: A Karma plugin - adapter for Jasmine testing framework
+  package_url: https://www.npmjs.com/karma-jasmine
+  version: 0.3.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15886/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: vendor/assets/bower_components/angular-moment/package.json
+  detection_source: vendor/assets/bower_components/angular-moment/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2016-01-22 18:29:11.000000000 Z
+- name: karma-phantomjs-launcher
+  description: A Karma plugin. Launcher for PhantomJS
+  package_url: https://www.npmjs.com/karma-phantomjs-launcher
+  version: 0.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15947/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: vendor/assets/bower_components/angular-moment/package.json
+  detection_source: vendor/assets/bower_components/angular-moment/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2016-01-22 18:29:11.000000000 Z
+- name: kind-of
+  description: Get the native type of a value
+  package_url: https://www.npmjs.com/kind-of
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18422/default_fec2a16e3d4fd2d8184d454d72a65ab5133ec4ae.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2020-04-04 19:14:22.000000000 Z
+- name: load-grunt-tasks
+  description: Load multiple grunt tasks using globbing patterns
+  package_url: https://www.npmjs.com/load-grunt-tasks
+  version: 3.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16062/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: vendor/assets/bower_components/angular-moment/package.json
+  detection_source: vendor/assets/bower_components/angular-moment/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2016-01-22 18:29:11.000000000 Z
+- name: lodash-es
+  description: Lodash exported as ES modules
+  package_url: https://www.npmjs.com/lodash-es
+  version: 4.17.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16587/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-05-06 20:02:45.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in lodash
+    cve_id: CVE-2020-8203
+    cve_url: https://github.com/advisories/GHSA-p6mc-m468-83gw
+    detected_date: Mar 12
+    severity: high
+    first_patched: 4.17.20
+  - name: Command Injection in lodash
+    cve_id: CVE-2021-23337
+    cve_url: https://github.com/advisories/GHSA-35jh-r3h4-6jhm
+    detected_date: Mar 12
+    severity: high
+    first_patched: 4.17.21
+  - name: Regular Expression Denial of Service (ReDoS) in lodash
+    cve_id: CVE-2020-28500
+    cve_url: https://github.com/advisories/GHSA-29mw-wpgm-hmr9
+    detected_date: Mar 12
+    severity: moderate
+    first_patched: 4.17.21
+- name: lodash.assign
+  description: The lodash method `_.assign` exported as a module
+  package_url: https://www.npmjs.com/lodash.assign
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16642/default_783b9b6c17b863f264c1418b0eb831316f741afd.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-05-06 20:02:45.000000000 Z
+- name: lodash.mergewith
+  description: The Lodash method `_.mergeWith` exported as a module
+  package_url: https://www.npmjs.com/lodash.mergewith
+  version: 4.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18656/default_f228716e0e2054736b7cef03e48c321d920064dc.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-05-06 20:02:45.000000000 Z
+- name: lodash.pick
+  description: The lodash method `_.pick` exported as a module
+  package_url: https://www.npmjs.com/lodash.pick
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16970/default_277303773c2bdb575ee8f4bfe869f0a33d6755b2.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Amanda Bullington
+  last_updated_on: 2021-08-12 23:45:18.000000000 Z
+- name: markdown-it
+  description: Markdown-it - modern pluggable markdown parser
+  package_url: https://www.npmjs.com/markdown-it
+  version: 10.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16277/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Ken-ichi
+  last_updated_on: 2020-07-07 05:07:32.000000000 Z
+  vulnerabilities:
+  - name: Uncontrolled Resource Consumption in markdown-it
+    cve_id: CVE-2022-21670
+    cve_url: https://github.com/advisories/GHSA-6vfc-qv3f-vr6c
+    detected_date: Jan 13
+    severity: moderate
+    first_patched: 12.3.2
+- name: minimist
+  description: Parse argument options
+  package_url: https://www.npmjs.com/minimist
+  version: 1.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15918/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2020-03-18 00:52:46.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in minimist
+    cve_id: CVE-2021-44906
+    cve_url: https://github.com/advisories/GHSA-xvch-5gv4-984h
+    detected_date: Mar 22
+    severity: critical
+    first_patched: 1.2.6
+- name: mkdirp
+  description: Recursively mkdir, like `mkdir -p`
+  package_url: https://www.npmjs.com/mkdirp
+  version: 0.5.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15881/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: package-lock.json
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2015-11-13 02:45:11.000000000 Z
+- name: mousetrap
+  description: Simple library for handling keyboard shortcuts
+  package_url: https://www.npmjs.com/mousetrap
+  version: 1.6.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18018/image.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Amanda Bullington
+  last_updated_on: 2021-08-12 23:45:18.000000000 Z
+- name: node
+  description: Node
+  package_url: https://www.npmjs.com/node
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17983/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
+  detection_source: vendor/assets/bower_components/angular-truncate/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-04 06:35:29.000000000 Z
+- name: np
+  description: A better `npm publish`
+  package_url: https://www.npmjs.com/np
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16247/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
+  detection_source: vendor/assets/bower_components/angular/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-10-22 18:11:11.000000000 Z
+- name: npm
+  description: A package manager for JavaScript
+  package_url: https://www.npmjs.com/npm
+  license: Artistic-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16105/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
+  detection_source: vendor/assets/bower_components/angular/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-10-22 18:11:11.000000000 Z
+- name: ol
+  description: OpenLayers mapping library
+  package_url: https://www.npmjs.com/ol
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18695/default_ba22650903e999378ab35f8093d2d808f0a46039.png
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2015-11-13 02:45:11.000000000 Z
+- name: os
+  description: NodeJS Core Module Extended
+  package_url: https://www.npmjs.com/os
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17784/default_b760b4f955878b0055c02bde0608c2f01e7d4f4f.png
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-02 23:41:58.000000000 Z
+- name: phantom
+  description: PhantomJS integration module for NodeJS
+  package_url: https://www.npmjs.com/phantom
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17469/default_2a4dc012d9584af49ba34825451ae7a5a8d75e4b.png
+  detection_source: vendor/assets/bower_components/angular-moment/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2016-01-22 18:29:11.000000000 Z
+- name: prop-types
+  description: Runtime type checking for React props and similar objects
+  package_url: https://www.npmjs.com/prop-types
+  version: 15.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2018-11-05 23:03:33.000000000 Z
+- name: rc
+  description: Hardwired configuration loader
+  package_url: https://www.npmjs.com/rc
+  version: 1.2.8
+  license: BSD-2-Clause,MIT,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16813/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source_url: package-lock.json
+  detection_source: vendor/assets/bower_components/angular-truncate/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-10-22 18:11:11.000000000 Z
+- name: react-bootstrap
+  description: Bootstrap 3 components built with React
+  package_url: https://www.npmjs.com/react-bootstrap
+  version: 0.33.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16383/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2021-11-10 03:32:26.000000000 Z
+- name: react-color
+  description: A Collection of Color Pickers from Sketch
+  package_url: https://www.npmjs.com/react-color
+  version: 2.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16955/default_665377899254fe85c1cf6bf7f15e24c4180a76ac.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2021-11-10 03:32:26.000000000 Z
+- name: react-dnd
+  description: Drag and Drop for React
+  package_url: https://www.npmjs.com/react-dnd
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16710/default_9b37c4b9479b5cf61478ac117da829ccdd0ed0a0.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2021-11-10 03:32:26.000000000 Z
+- name: react-dnd-html5-backend
+  description: HTML5 backend for React DnD
+  package_url: https://www.npmjs.com/react-dnd-html5-backend
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16799/default_dc62f5e9b636403c2d19676924f5b6b881abcac8.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2021-11-10 03:32:26.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2021-11-10 03:32:26.000000000 Z
+- name: react-dropzone
+  description: Simple HTML5 drag-drop zone with React.js
+  package_url: https://www.npmjs.com/react-dropzone
+  version: 4.2.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16979/default_665377899254fe85c1cf6bf7f15e24c4180a76ac.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2021-11-10 03:32:26.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 4.4.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2021-11-10 03:32:26.000000000 Z
+- name: read
+  description: Read
+  package_url: https://www.npmjs.com/read
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17342/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2015-11-13 02:45:11.000000000 Z
+- name: sanitize-html
+  description: Clean up user-submitted HTML
+  package_url: https://www.npmjs.com/sanitize-html
+  version: 2.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17508/default_1d2902e8f9c84259702671591379572493b9009b.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-05-06 17:58:16.000000000 Z
+- name: serialize-javascript
+  description: Serialize JavaScript to a superset of JSON that includes regular expressions
+    and functions
+  package_url: https://www.npmjs.com/serialize-javascript
+  version: 4.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17203/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-05-06 17:58:16.000000000 Z
+- name: serve
+  description: Static file serving and directory listing
+  package_url: https://www.npmjs.com/serve
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16484/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source: vendor/assets/bower_components/angular-truncate/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-10-22 18:11:11.000000000 Z
+- name: st
+  description: A module for serving static files. Does etags, caching, etc
+  package_url: https://www.npmjs.com/st
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18455/default_d8e945bfec4c4a608fb0493abf73c9ec1cffc9a2.png
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-02 23:41:58.000000000 Z
+- name: tar
+  description: Tar for node
+  package_url: https://www.npmjs.com/tar
+  version: 4.4.19
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16466/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
+  detection_source_url: package-lock.json
+  detection_source: vendor/assets/bower_components/angular-truncate/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-14 01:05:22.000000000 Z
+- name: temp
+  description: Temporary files and directories
+  package_url: https://www.npmjs.com/temp
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16400/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source: vendor/assets/bower_components/angular-truncate/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-14 01:05:22.000000000 Z
+- name: tinycolor2
+  description: Fast Color Parsing and Manipulation
+  package_url: https://www.npmjs.com/tinycolor2
+  version: 1.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16845/default_768abdabb94806c932ace6262b6bbc8241907245.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2020-03-31 16:35:21.000000000 Z
+- name: uglify
+  description: A simple tool to uglify javascript &amp; css files
+  package_url: https://www.npmjs.com/uglify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18097/image.png
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Patrick Leary
+  last_updated_on: 2016-01-22 18:29:11.000000000 Z
+- name: underscore
+  description: JavaScript's functional programming helper library
+  package_url: https://www.npmjs.com/underscore
+  version: 1.12.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15882/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-05-06 20:05:35.000000000 Z
+- name: url
+  description: The core `url` packaged standalone for use with Browserify
+  package_url: https://www.npmjs.com/url
+  version: 0.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16462/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: package-lock.json
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-02 23:41:58.000000000 Z
+- name: utf8
+  description: A well-tested UTF-8 encoder/decoder written in JavaScript
+  package_url: https://www.npmjs.com/utf8
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17864/default_99a4718ac3f2beccb28962b727b0a38010c9b496.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2019-08-06 18:57:45.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 3.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2019-08-06 18:57:45.000000000 Z
+- name: webpack-stream
+  description: Run webpack as a stream
+  package_url: https://www.npmjs.com/webpack-stream
+  version: 5.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16467/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2020-08-13 18:03:04.000000000 Z
+- name: yo
+  description: CLI tool for running Yeoman generators
+  package_url: https://www.npmjs.com/yo
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17899/default_3bc64391130859f94a137a7dc6cb87cd54da546b.png
+  detection_source: vendor/assets/bower_components/angular-truncate/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-14 01:05:22.000000000 Z
+- name: acts-as-taggable-on
+  description: With ActsAsTaggableOn, you can tag a single model on several contexts,
+    such as skills, interests, and awards
+  package_url: https://rubygems.org/acts-as-taggable-on
+  version: 8.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19310/default_328c11a8ee25b2bcdb614a295e29c3b1b00779cf.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi
+  last_updated_on: 2021-08-16 20:15:27.000000000 Z
+- name: ancestry
+  description: Ancestry allows the records of a ActiveRecord model to be organized
+    in a tree structure, using a single, intuitively formatted database column
+  package_url: https://rubygems.org/ancestry
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19520/default_6fb1d8b9aef837cfaccc78fd09408418629c0be8.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi
+  last_updated_on: 2021-08-16 20:15:27.000000000 Z
+- name: aws-sdk-s3
+  description: Official AWS Ruby gem for Amazon Simple Storage Service
+  package_url: https://rubygems.org/aws-sdk-s3
+  version: 1.96.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19078/default_4df61286a41b221e05fffb41a1003ffc1a8eaf4e.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Patrick Leary
+  last_updated_on: 2020-01-07 15:57:14.000000000 Z
+- name: better_errors
+  description: Provides a better error page for Rails and other Rack apps
+  package_url: https://rubygems.org/better_errors
+  version: 2.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19224/default_90da4313847baa579409c050c1ebb8de5a6e0fbc.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Patrick Leary
+  last_updated_on: 2019-01-20 19:13:10.000000000 Z
+- name: binding_of_caller
+  description: Retrieve the binding of a method's caller
+  package_url: https://rubygems.org/binding_of_caller
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19104/default_fca7ffebc4c078263714788a3e4853bf74bde297.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi
+  last_updated_on: 2021-08-16 20:15:27.000000000 Z
+- name: byebug
+  description: Byebug is a Ruby debugger
+  package_url: https://rubygems.org/byebug
+  version: 11.1.3
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18849/default_887cb273c504fac90d07fc552b7b223fbb32ca39.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Patrick Leary
+  last_updated_on: 2015-01-27 21:36:51.000000000 Z
+- name: capistrano-rails
+  description: Rails specific Capistrano tasks
+  package_url: https://rubygems.org/capistrano-rails
+  version: 1.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19576/image.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2021-09-17 01:55:05.000000000 Z
+- name: chronic
+  description: Chronic is a natural language date/time parser written in pure Ruby
+  package_url: https://rubygems.org/chronic
+  version: 0.10.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18990/default_c2edad6777219a9d77730c33c0ffc3c4598d107f.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Patrick Leary
+  last_updated_on: 2019-01-20 19:13:10.000000000 Z
+- name: cocoon
+  description: Unobtrusive nested forms handling, using jQuery
+  package_url: https://rubygems.org/cocoon
+  version: 1.2.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19721/default_494e7d37d3a2cead7ed09c505b11b32ae3606a2b.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Patrick Leary
+  last_updated_on: 2019-01-20 19:13:10.000000000 Z
+- name: coffee-rails
+  description: CoffeeScript adapter for the Rails asset pipeline
+  package_url: https://rubygems.org/coffee-rails
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18896/default_9386886dd1c6c396a11bd4b49732afb9ec444f8d.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2021-09-17 01:55:05.000000000 Z
+- name: dalli
+  description: High performance memcached client for Ruby
+  package_url: https://rubygems.org/dalli
+  version: 2.7.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19097/default_a446ce2f074889d1160eee4b4a2fde34af7525e6.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Patrick Leary
+  last_updated_on: 2019-01-20 19:13:10.000000000 Z
+  vulnerabilities:
+  - name: Unsanitized input leading to code injection in Dalli
+    cve_id: CVE-2022-4064
+    cve_url: https://github.com/advisories/GHSA-3xg8-cc8f-9wv2
+    detected_date: Nov 22
+    severity: low
+    first_patched: 3.2.3
+- name: database_cleaner
+  description: Strategies for cleaning databases
+  package_url: https://rubygems.org/database_cleaner
+  version: 2.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18854/default_09811c2c16af4754129f39ba1dab0d23ca3d2476.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Patrick Leary
+  last_updated_on: 2019-01-20 19:13:10.000000000 Z
+- name: delayed_job
+  description: Delayed_job
+  package_url: https://rubygems.org/delayed_job
+  version: 4.1.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19157/default_c8270617b11a0e0bb186cecf4527f28719105688.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi
+  last_updated_on: 2021-08-16 20:15:27.000000000 Z
+- name: delayed_job_active_record
+  description: ActiveRecord backend for Delayed::Job
+  package_url: https://rubygems.org/delayed_job_active_record
+  version: 4.1.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19216/default_e38d6385c75dafbe16c1c806ccf1fd483b747794.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi
+  last_updated_on: 2021-08-16 20:15:27.000000000 Z
+- name: diffy
+  description: Convenient diffing in ruby
+  package_url: https://rubygems.org/diffy
+  version: 3.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19134/default_302643c2b99caa1c440c0d4aa23d4230e1cc78e3.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Patrick Leary
+  last_updated_on: 2019-01-20 19:13:10.000000000 Z
+  vulnerabilities:
+  - name: Improper handling of double quotes in file name in Diffy in Windows environment
+    cve_id: CVE-2022-33127
+    cve_url: https://github.com/advisories/GHSA-5ww9-9qp2-x524
+    detected_date: Jun 26
+    severity: critical
+    first_patched: 3.4.1
+- name: dynamic_form
+  description: DynamicForm holds a few helper methods to help you deal with your Rails3
+    models
+  package_url: https://rubygems.org/dynamic_form
+  version: 1.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19459/default_de854f0c757466f4cce7c01e288f5f01a5e38432.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Patrick Leary
+  last_updated_on: 2019-01-20 19:13:10.000000000 Z
+- name: exifr
+  description: EXIF Reader is a module to read EXIF from JPEG and TIFF images
+  package_url: https://rubygems.org/exifr
+  version: 1.3.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19562/default_57f0ab07a18f77bb23a7772b582a06b574867b53.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Brian
+  last_updated_on: 2020-07-08 20:08:14.000000000 Z
+- name: factory_bot_rails
+  description: Factory_bot_rails provides integration between factory_bot and rails
+    4.2 or newer
+  package_url: https://rubygems.org/factory_bot_rails
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19040/default_6307a3eb8ac1c7d425b9163e046ba444d20d3abd.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2021-09-17 01:55:05.000000000 Z
+- name: faker
+  description: Faker
+  package_url: https://rubygems.org/faker
+  version: 2.18.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18897/default_31c6044490fb5c1bec1388b8ceb466b6ac78ae92.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Patrick Leary
+  last_updated_on: 2019-01-20 19:13:10.000000000 Z
+- name: fastimage
+  description: FastImage finds the size or type of an image given its uri by fetching
+    as little as needed
+  package_url: https://rubygems.org/fastimage
+  version: 2.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19239/default_c4ed1d3f735f11415ee5d02b5a5ba48490465220.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Patrick Leary
+  last_updated_on: 2019-09-11 16:13:54.000000000 Z
+- name: friendly_id
+  description: FriendlyId is the "Swiss Army bulldozer" of slugging and permalink
+    plugins for Active Record
+  package_url: https://rubygems.org/friendly_id
+  version: 5.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19084/default_54dcdbda5f19ac7cce7dfde7a31f57a35d2cdc2f.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi
+  last_updated_on: 2021-08-16 20:15:27.000000000 Z
+- name: gdata
+  description: This gem provides a set of wrappers designed to make it easy to work
+    with the Google Data APIs
+  package_url: https://rubygems.org/gdata
+  version: 1.1.2
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19759/default_942693f4ab333f88cf5c1c9da594634c36877457.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Patrick Leary
+  last_updated_on: 2019-01-20 19:13:10.000000000 Z
+- name: htmlentities
+  description: A module for encoding and decoding
+  package_url: https://rubygems.org/htmlentities
+  version: 4.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18995/default_33b08efb2463b893403b434b8c4275715d78743b.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi
+  last_updated_on: 2021-08-16 20:15:27.000000000 Z
+- name: icalendar
+  description: Implements the iCalendar specification
+  package_url: https://rubygems.org/icalendar
+  version: 2.7.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19486/default_784a2cb941e3df7ba2e632b15e88998b8e4fa511.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Patrick Leary
+  last_updated_on: 2019-01-20 19:13:10.000000000 Z
+- name: json
+  description: This is a JSON implementation as a Ruby extension in C
+  package_url: https://rubygems.org/json
+  version: 2.5.1
+  license: Ruby
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18822/default_19184669508c0f71aec9521d5f14d71b77203130.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Patrick Leary
+  last_updated_on: 2019-01-20 19:13:10.000000000 Z
+- name: koala
+  description: Koala is a lightweight, flexible Ruby SDK for Facebook
+  package_url: https://rubygems.org/koala
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19504/default_9507d505ecf2d6fecc582d9657a2ec76851b6113.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Patrick Leary
+  last_updated_on: 2019-01-20 19:13:10.000000000 Z
+- name: machinist
+  description: Fixtures aren't fun. Machinist is
+  package_url: https://rubygems.org/machinist
+  version: '2.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19432/default_7aba8675ab8316dd86840277c6aaab7558b1bed8.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Grey Baker
+  last_updated_on: 2019-04-17 11:56:30.000000000 Z
+- name: newrelic_rpm
+  description: New Relic is a performance management system, developed by New Relic,
+    Inc
+  package_url: https://rubygems.org/newrelic_rpm
+  version: 6.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19246/default_518f3430d0c3ea4653c591ebd7e75da67f51cfaf.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2019-04-24 18:45:17.000000000 Z
+- name: nokogiri
+  description: Nokogiri
+  package_url: https://rubygems.org/nokogiri
+  version: 1.12.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18823/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi
+  last_updated_on: 2021-08-16 20:15:27.000000000 Z
+  vulnerabilities:
+  - name: Nokogiri affected by zlib's Out-of-bounds Write vulnerability
+    cve_id: CVE-2018-25032
+    cve_url: https://github.com/advisories/GHSA-jc36-42cf-vqwj
+    detected_date: Jun 28
+    severity: high
+    first_patched: 1.13.4
+  - name: Nokogiri Inefficient Regular Expression Complexity
+    cve_id: CVE-2022-24836
+    cve_url: https://github.com/advisories/GHSA-crjr-9rc5-ghw8
+    detected_date: Apr 12
+    severity: high
+    first_patched: 1.13.4
+  - name: Nokogiri Improperly Handles Unexpected Data Type
+    cve_id: CVE-2022-29181
+    cve_url: https://github.com/advisories/GHSA-xh29-r2w5-wx8m
+    detected_date: May 24
+    severity: high
+    first_patched: 1.13.6
+  - name: Nokogiri has vulnerable dependencies on libxml2 and libxslt
+    cve_id: CVE-2021-30560
+    cve_url: https://github.com/advisories/GHSA-59gp-qqm7-cw4j
+    detected_date: Jun 28
+    severity: high
+    first_patched: 1.13.2
+  - name: Integer Overflow or Wraparound in libxml2 affects Nokogiri
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-cgx6-hpwq-fhv5
+    detected_date: May 19
+    severity: high
+    first_patched: 1.13.5
+  - name: Vulnerable dependencies in Nokogiri
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-fq42-c5rg-92c2
+    detected_date: Feb 26
+    severity: high
+    first_patched: 1.13.2
+  - name: Denial of Service (DoS) in Nokogiri on JRuby
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-gx8x-g87m-h5q6
+    detected_date: Apr 12
+    severity: high
+    first_patched: 1.13.4
+  - name: Out-of-bounds Write in zlib affects Nokogiri
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-v6gp-9mmm-c6p5
+    detected_date: Apr 12
+    severity: high
+    first_patched: 1.13.4
+  - name: Nokogiri updates packaged libxml2 to v2.10.4 to resolve multiple CVEs
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-pxvg-2qj5-37jq
+    detected_date: Apr 12
+    severity: moderate
+    first_patched: 1.14.3
+  - name: Update bundled libxml2 to v2.10.3 to resolve multiple CVEs
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-2qc6-mcvw-92cw
+    detected_date: Oct 18
+    severity: moderate
+    first_patched: 1.13.9
+  - name: XML Injection in Xerces Java affects Nokogiri
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-xxx9-3xcr-gjj3
+    detected_date: Apr 12
+    severity: moderate
+    first_patched: 1.13.4
+- name: omniauth-facebook
+  description: Facebook OAuth2 Strategy for OmniAuth
+  package_url: https://rubygems.org/omniauth-facebook
+  version: 8.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19539/default_218dae89c7df5d5855caf68241b819cfe024f92e.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi
+  last_updated_on: 2021-08-16 20:15:27.000000000 Z
+- name: omniauth-oauth2
+  description: An abstract OAuth2 strategy for OmniAuth
+  package_url: https://rubygems.org/omniauth-oauth2
+  version: 1.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18909/default_6011c3e13c0feeff577120981a21a5968e50756a.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi
+  last_updated_on: 2021-08-16 20:15:27.000000000 Z
+- name: omniauth-twitter
+  description: OmniAuth strategy for Twitter
+  package_url: https://rubygems.org/omniauth-twitter
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19712/default_aeaa8b24dd36f8e334bb5b9c0baaee88c37e0037.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi
+  last_updated_on: 2021-08-16 20:15:27.000000000 Z
+- name: optimist
+  description: Optimist is a commandline option parser for Ruby that just gets out
+    of your way
+  package_url: https://rubygems.org/optimist
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19543/default_b61dd0359952642720a34ea0a4100fb79cc4dfcc.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2018-10-12 16:55:48.000000000 Z
+- name: patron
+  description: Ruby HTTP client library based on libcurl
+  package_url: https://rubygems.org/patron
+  version: 0.13.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19260/default_64bfa7dff51ebcfaf31eb5005cda9a1de564987d.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Patrick Leary
+  last_updated_on: 2019-01-20 19:42:31.000000000 Z
+- name: pg
+  description: Pg is the Ruby interface to the {PostgreSQL RDBMS}[http://www.postgresql.org/]
+  package_url: https://rubygems.org/pg
+  version: 1.2.3
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18855/default_d343d9a7c573fa5dcbeb4d3c43d2ffe4afa82cc1.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2010-11-09 06:53:27.000000000 Z
+- name: rack-cors
+  description: Middleware that will make Rack-based apps CORS compatible
+  package_url: https://rubygems.org/rack-cors
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19489/default_235e01dd950d1f80c14beead28dc8c06a1dbf108.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Patrick Leary
+  last_updated_on: 2021-08-25 21:58:37.000000000 Z
+- name: rails-controller-testing
+  description: Extracting `assigns` and `assert_template` from ActionDispatch
+  package_url: https://rubygems.org/rails-controller-testing
+  version: 1.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19298/default_665ed3fcb2a1ba0439337b543b18095155087d89.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2021-09-17 01:55:05.000000000 Z
+- name: rails-i18n
+  description: A set of common locale data and translations to internationalize and/or
+    localize your Rails applications
+  package_url: https://rubygems.org/rails-i18n
+  version: 5.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19125/default_8cdfa50e17bca4b467d6718a237904b98923651a.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2021-09-17 01:55:05.000000000 Z
+- name: redcarpet
+  description: A fast, safe and extensible Markdown to
+  package_url: https://rubygems.org/redcarpet
+  version: 3.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18853/default_b87d202e13d56f87c63181fa49bc5e099c9abaac.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi
+  last_updated_on: 2020-07-07 05:07:32.000000000 Z
+- name: rest-client
+  description: A simple HTTP and REST client for Ruby
+  package_url: https://rubygems.org/rest-client
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18836/default_669e0ebb464c584b580cfec09e646fddff70c02a.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Patrick Leary
+  last_updated_on: 2019-01-20 19:13:10.000000000 Z
+- name: rgeo
+  description: RGeo is a geospatial data library for Ruby
+  package_url: https://rubygems.org/rgeo
+  version: 2.3.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19728/default_c83abd71b4fb91b9c1bf937d7824fa66fe3e6ca3.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi
+  last_updated_on: 2021-08-16 20:15:27.000000000 Z
+- name: rspec-html-matchers
+  description: Nokogiri based 'have_tag' and 'with_tag' matchers for rspec 3
+  package_url: https://rubygems.org/rspec-html-matchers
+  version: 0.9.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19268/default_67289672b0f514dd92f3c786eb2cf0a39b0db10f.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2021-09-17 01:55:05.000000000 Z
+- name: rspec-rails
+  description: Rspec-rails is a testing framework for Rails 3+
+  package_url: https://rubygems.org/rspec-rails
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18830/default_ba8d7756589e5fc0164687950e3f091b32554546.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2021-09-17 01:55:05.000000000 Z
+- name: rubocop-rails
+  description: Automatic Rails code style checking tool
+  package_url: https://rubygems.org/rubocop-rails
+  version: 2.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19270/default_67289672b0f514dd92f3c786eb2cf0a39b0db10f.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2021-09-17 01:55:05.000000000 Z
+- name: rubocop-rspec
+  description: Code style checking for RSpec files
+  package_url: https://rubygems.org/rubocop-rspec
+  version: 2.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18892/default_b7088ec778267614a78a5a472c67252ec1721d10.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2021-09-17 01:55:05.000000000 Z
+- name: rubyzip
+  description: Rubyzip is a ruby module for reading and writing zip files
+  package_url: https://rubygems.org/rubyzip
+  version: 2.3.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18887/default_1e22ca9f3f63a8c93249bae500705b9451e7e882.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2021-03-24 18:34:34.000000000 Z
+- name: sass-rails
+  description: Sass adapter for the Rails asset pipeline
+  package_url: https://rubygems.org/sass-rails
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18876/default_d416e715a80ce80ae31b87cff032f5873c8a9d2a.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2021-09-17 01:55:05.000000000 Z
+- name: savon
+  description: Heavy metal SOAP client
+  package_url: https://rubygems.org/savon
+  version: 2.12.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18935/default_36bbb38c1cd5521e90d6e99982778960b00ec515.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi
+  last_updated_on: 2021-08-16 20:15:27.000000000 Z
+- name: shoulda-matchers
+  description: Shoulda Matchers provides RSpec- and Minitest-compatible one-liners
+    to test common Rails functionality that
+  package_url: https://rubygems.org/shoulda-matchers
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18912/default_f78521c51e3a38a8810251cfa8909b18ae0b40a8.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: todtb
+  last_updated_on: 2021-08-04 00:41:42.000000000 Z
+- name: simplecov
+  description: Code coverage for Ruby 1.9+ with a powerful configuration library and
+    automatic merging of coverage across test suites
+  package_url: https://rubygems.org/simplecov
+  version: 0.21.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18819/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Patrick Leary
+  last_updated_on: 2019-01-20 19:13:10.000000000 Z
+- name: sprockets
+  description: Sprockets is a Rack-based asset packaging system that concatenates
+    and serves JavaScript
+  package_url: https://rubygems.org/sprockets
+  version: 4.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18932/default_36bbb38c1cd5521e90d6e99982778960b00ec515.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi
+  last_updated_on: 2021-08-16 20:15:27.000000000 Z
+- name: thin
+  description: A thin and fast web server
+  package_url: https://rubygems.org/thin
+  version: 1.8.1
+  license: GPL-2.0+,Ruby
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18900/default_f0ad2b1ffbe10fdd866f9f8e5f812599d9e8085b.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi
+  last_updated_on: 2021-08-16 20:15:27.000000000 Z
+- name: uglifier
+  description: Uglifier minifies JavaScript files by wrapping UglifyJS to be accessible
+    in Ruby
+  package_url: https://rubygems.org/uglifier
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18967/default_20d16c1471b93397c8ef93b19baf0989f59663c0.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Patrick Leary
+  last_updated_on: 2019-01-20 19:13:10.000000000 Z
+- name: webmock
+  description: WebMock allows stubbing HTTP requests and setting expectations on HTTP
+    requests
+  package_url: https://rubygems.org/webmock
+  version: 3.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18824/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Patrick Leary
+  last_updated_on: 2016-05-27 16:34:47.000000000 Z
+- name: whenever
+  description: Clean ruby syntax for writing and deploying cron jobs
+  package_url: https://rubygems.org/whenever
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19383/default_b8d34ca81aebc76c0b551b666a1d21df7e697544.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Patrick Leary
+  last_updated_on: 2019-01-20 19:13:10.000000000 Z
+- name: will_paginate
+  description: Will_paginate provides a simple API for performing paginated queries
+    with Active Record
+  package_url: https://rubygems.org/will_paginate
+  version: 3.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18959/default_d56e7cc665032604d9f725997e6ccc641992a4f2.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2019-09-26 00:34:24.000000000 Z
+- name: ya2yaml
+  description: Ya2YAML is "yet another to_yaml"
+  package_url: https://rubygems.org/ya2yaml
+  version: '0.31'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19701/default_e4623cf87b5c0bb8667c5069c20ee5d59d70791d.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Patrick Leary
+  last_updated_on: 2019-01-20 19:13:10.000000000 Z
+- name: yajl-ruby
+  description: Ruby C bindings to the excellent Yajl JSON stream-based parser library
+  package_url: https://rubygems.org/yajl-ruby
+  version: 1.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18895/default_9386886dd1c6c396a11bd4b49732afb9ec444f8d.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2021-03-24 18:34:34.000000000 Z
+  vulnerabilities:
+  - name: Buffer Overflow in yajl-ruby
+    cve_id: CVE-2022-24795
+    cve_url: https://github.com/advisories/GHSA-jj47-x69x-mxrm
+    detected_date: Apr 6
+    severity: moderate
+    first_patched: 1.4.3
+- name: yui-compressor
+  description: A Ruby interface to YUI Compressor for minifying JavaScript and CSS
+    assets
+  package_url: https://rubygems.org/yui-compressor
+  version: 0.12.0
+  license: MIT,BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19226/default_df0c87c1d1c9c662c2ad960d8e93130abb553ed2.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Patrick Leary
+  last_updated_on: 2019-01-20 19:13:10.000000000 Z
