@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 JoeCohen/inaturalist is built on the following main stack:
+
 - [Amazon S3](http://aws.amazon.com/s3) – Cloud Storage
 - [Twilio SendGrid](http://sendgrid.com) – Transactional Email
 - [New Relic](http://newrelic.com) – Performance Monitoring
@@ -61,11 +62,13 @@ JoeCohen/inaturalist is built on the following main stack:
 - [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 JoeCohen/inaturalist is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/25/amazon-s3.png' alt='Amazon S3'/> [Amazon S3](http://aws.amazon.com/s3) – Cloud Storage
 - <img width='25' height='25' src='https://img.stackshare.io/service/43/kQ_6nwmP.jpg' alt='Twilio SendGrid'/> [Twilio SendGrid](http://sendgrid.com) – Transactional Email
 - <img width='25' height='25' src='https://img.stackshare.io/service/103/default_193410db3a7e419c7b436961bf41d733c7346b59.png' alt='New Relic'/> [New Relic](http://newrelic.com) – Performance Monitoring
@@ -125,14 +128,15 @@ JoeCohen/inaturalist is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [JoeCohen/inaturalist](https://github.com/JoeCohen/inaturalist)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|215<br/>Tools used|11/16/23 <br/>Report generated|
+|216<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -697,9 +701,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (150)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (151)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (91)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (92)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -786,6 +790,7 @@ Full tech stack [here](/techstack.md)
 |[st](https://www.npmjs.com/st)|N/A|12/02/15|Ken-ichi Ueda |ISC|N/A|
 |[tar](https://www.npmjs.com/tar)|v4.4.19|12/14/15|Ken-ichi Ueda |ISC|N/A|
 |[temp](https://www.npmjs.com/temp)|N/A|12/14/15|Ken-ichi Ueda |MIT|N/A|
+|[test](https://www.npmjs.com/test)|N/A|12/04/15|Ken-ichi Ueda |MIT|N/A|
 |[tinycolor2](https://www.npmjs.com/tinycolor2)|v1.4.1|03/31/20|Patrick Leary |MIT|N/A|
 |[uglify](https://www.npmjs.com/uglify)|N/A|01/22/16|Patrick Leary |MIT|N/A|
 |[underscore](https://www.npmjs.com/underscore)|v1.12.1|05/06/21|dependabot[bot] |MIT|N/A|
