@@ -1,11 +1,12 @@
 repo_name: JoeCohen/inaturalist
 report_id: 50b8a1c664f7e546317515d4a9a5a92e
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-16T04:09:30+00:00'
+timestamp: '2024-01-05T08:41:05+00:00'
 requested_by: kueda
 provider: github
 branch: main
-detected_tools_count: 215
+detected_tools_count: 216
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist
   detection_source: Repo Metadata
 - name: CoffeeScript
   description: A little language that compiles into JavaScript
@@ -26,7 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1178/slQydAMv.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: vendor/assets/bower_components/ngInfiniteScroll/src/infinite-scroll.coffee
   last_updated_by: Patrick Leary
   last_updated_on: 2015-11-13 02:45:11.000000000 Z
@@ -38,7 +40,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/3117/d-5.png
-  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-bootstrap/package.json
+  detection_source: vendor/assets/bower_components/angular-bootstrap/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-02 23:41:58.000000000 Z
 - name: Gherkin
@@ -49,6 +52,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2460/default_aff27c02548fadb1b7e6f85a2b0da1c5dca5cc08.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist
   detection_source: Repo Metadata
 - name: HAML
   description: HTML Abstraction Markup Language - A Markup Haiku
@@ -60,7 +64,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1169/Picture_2.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2010-11-09 06:53:27.000000000 Z
@@ -73,6 +77,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/JoeCohen/inaturalist
   detection_source: Repo Metadata
 - name: PHP
   description: A popular general-purpose scripting language that is especially suited
@@ -83,6 +88,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/JoeCohen/inaturalist
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -93,6 +99,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-truncate/package.json
   detection_source: vendor/assets/bower_components/angular-truncate/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-14 01:05:22.000000000 Z
@@ -106,8 +113,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
-  detection_source_url: Gemfile.lock
-  detection_source: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
+  detection_source: Repo Metadata
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2012-09-26 08:56:49.000000000 Z
 - name: SQL
@@ -118,7 +125,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
-  detection_source: tools/create_states_simplified.sql
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/db/structure.sql
+  detection_source: db/structure.sql
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2013-02-08 23:28:15.000000000 Z
 - name: Bootstrap
@@ -131,7 +139,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
-  detection_source: vendor/assets/bower_components/angular-bootstrap/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package.json
+  detection_source: package.json
   last_updated_by: Amanda Bullington
   last_updated_on: 2021-08-12 23:45:18.000000000 Z
 - name: C3.js
@@ -144,7 +153,7 @@ tools:
   category: Libraries
   sub_category: Charting Libraries
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2016-02-23 05:11:43.000000000 Z
@@ -157,7 +166,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
-  detection_source: vendor/assets/bower_components/angular-truncate/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-moment/package.json
+  detection_source: vendor/assets/bower_components/angular-moment/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-04 06:35:29.000000000 Z
 - name: Rails
@@ -170,7 +180,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/990/x57_Lorv.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2021-09-17 01:55:05.000000000 Z
@@ -184,8 +194,8 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
+  detection_source: app/webpack/computer_vision/components/computer_vision_demo_app.jsx
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2018-07-19 18:42:55.000000000 Z
 - name: Redux
@@ -197,7 +207,7 @@ tools:
   category: Libraries
   sub_category: State Management Library
   image_url: https://img.stackshare.io/service/4074/13142323.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2018-11-05 23:03:33.000000000 Z
@@ -211,7 +221,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2020-05-07 21:30:02.000000000 Z
@@ -224,6 +234,7 @@ tools:
   category: Libraries
   sub_category: State Management Library
   image_url: https://img.stackshare.io/service/5448/13142323.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package.json
   detection_source: package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2018-11-05 23:03:33.000000000 Z
@@ -236,6 +247,7 @@ tools:
   category: Data Stores
   sub_category: Cloud Storage
   image_url: https://img.stackshare.io/service/25/amazon-s3.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile
   detection_source: Gemfile
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2010-11-09 06:53:27.000000000 Z
@@ -248,6 +260,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1040/hDNnpa4a_400x400.jpg
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/docker-compose.yml
   detection_source: docker-compose.yml
   last_updated_by: todtb
   last_updated_on: 2020-12-27 04:05:48.000000000 Z
@@ -259,6 +272,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile
   detection_source: Gemfile
   last_updated_by: Ken-ichi
   last_updated_on: 2021-08-16 20:15:27.000000000 Z
@@ -271,6 +285,7 @@ tools:
   category: Data Stores
   sub_category: In-Memory Databases
   image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/docker-compose.yml
   detection_source: docker-compose.yml
   last_updated_by: todtb
   last_updated_on: 2020-12-27 04:05:48.000000000 Z
@@ -283,7 +298,8 @@ tools:
   category: Data Stores
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/21146/default_3b393819f74c4cb10f98fa9e683fa28cf6cc85f5.png
-  detection_source: vendor/assets/bower_components/angular/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-bootstrap/package.json
+  detection_source: vendor/assets/bower_components/angular-bootstrap/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-02 23:41:58.000000000 Z
 - name: ws
@@ -295,7 +311,8 @@ tools:
   category: Application Hosting
   sub_category: Realtime Backend / API
   image_url: https://img.stackshare.io/service/11381/no-img-open-source.png
-  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-resource/package.json
+  detection_source: vendor/assets/bower_components/angular-resource/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-10-22 18:11:11.000000000 Z
 - name: Babel
@@ -308,7 +325,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JavaScript Compilers
   image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2020-04-21 18:13:23.000000000 Z
@@ -322,7 +339,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/661/5da4e1d78e930197cb7dc002ceafdfda.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi
   last_updated_on: 2021-08-16 20:15:27.000000000 Z
@@ -336,7 +353,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/2595/capybara.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi
   last_updated_on: 2021-08-16 20:15:27.000000000 Z
@@ -349,6 +366,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Coverage
   image_url: https://img.stackshare.io/service/680/a43e4a04cb9f778842de43f95db59a14.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-moment/package.json
   detection_source: vendor/assets/bower_components/angular-moment/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2016-01-22 18:29:11.000000000 Z
@@ -361,6 +379,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/2544/jasVAxyJ.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/config/cucumber.yml
   detection_source: config/cucumber.yml
   last_updated_by: Patrick Leary
   last_updated_on: 2016-01-13 17:49:50.000000000 Z
@@ -373,7 +392,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
-  detection_source: package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/.eslintrc
+  detection_source: ".eslintrc"
   last_updated_by: Patrick Leary
   last_updated_on: 2018-11-05 23:03:33.000000000 Z
 - name: Git
@@ -384,6 +404,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -393,6 +414,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/.github/workflows/CI.yml
   detection_source: ".github/workflows/CI.yml"
   last_updated_by: Patrick Leary
   last_updated_on: 2020-12-04 17:20:47.000000000 Z
@@ -405,7 +427,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/845/falgg2jybmhgk16y62lr.png
-  detection_source_url: vendor/assets/bower_components/angular-moment/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-moment/package.json
   detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2015-11-13 02:45:11.000000000 Z
@@ -417,7 +439,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/1945/mzh2bRes_400x400.png
-  detection_source: vendor/assets/bower_components/angular-truncate/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-moment/package.json
+  detection_source: vendor/assets/bower_components/angular-moment/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-04 06:35:29.000000000 Z
 - name: Jasmine
@@ -428,6 +451,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-moment/package.json
   detection_source: vendor/assets/bower_components/angular-moment/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2016-01-22 18:29:11.000000000 Z
@@ -441,8 +465,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Browser Testing
   image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
-  detection_source_url: vendor/assets/bower_components/angular-moment/package.json
-  detection_source: vendor/assets/bower_components/angular-truncate/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-moment/package.json
+  detection_source: vendor/assets/bower_components/angular-capitalize/bower.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-11-26 02:41:31.000000000 Z
 - name: Kibana
@@ -453,6 +477,7 @@ tools:
   category: Monitoring
   sub_category: Monitoring Tools
   image_url: https://img.stackshare.io/service/1722/Image_2019-05-20_at_4.53.31_PM.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile
   detection_source: Gemfile
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2010-11-09 06:53:27.000000000 Z
@@ -464,6 +489,7 @@ tools:
   category: Monitoring
   sub_category: Log Management
   image_url: https://img.stackshare.io/service/1683/preview.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile
   detection_source: Gemfile
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2010-11-09 06:53:27.000000000 Z
@@ -476,6 +502,7 @@ tools:
   category: Monitoring
   sub_category: Performance Monitoring
   image_url: https://img.stackshare.io/service/103/default_193410db3a7e419c7b436961bf41d733c7346b59.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile
   detection_source: Gemfile
   last_updated_by: dependabot[bot]
   last_updated_on: 2019-04-24 18:45:17.000000000 Z
@@ -488,6 +515,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Headless Browsers
   image_url: https://img.stackshare.io/service/1832/phantomjs.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-moment/package.json
   detection_source: vendor/assets/bower_components/angular-moment/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2016-01-22 18:29:11.000000000 Z
@@ -501,7 +529,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/1754/protractor-logo1.png
-  detection_source_url: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/ngInfiniteScroll/package.json
   detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2015-11-13 02:45:11.000000000 Z
@@ -515,7 +543,7 @@ tools:
   category: Application Hosting
   sub_category: Web Servers
   image_url: https://img.stackshare.io/service/1055/favicon.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2010-11-09 06:53:27.000000000 Z
@@ -527,6 +555,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-truncate/package.json
   detection_source: vendor/assets/bower_components/angular-truncate/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-14 01:05:22.000000000 Z
@@ -540,7 +569,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/2539/logo.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2010-11-09 06:53:27.000000000 Z
@@ -554,7 +583,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/2643/rubocop.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2010-11-09 06:53:27.000000000 Z
@@ -566,6 +595,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/ngInfiniteScroll/package.json
   detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2015-11-13 02:45:11.000000000 Z
@@ -578,6 +608,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-moment/.travis.yml
   detection_source: vendor/assets/bower_components/angular-moment/.travis.yml
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-04 06:35:29.000000000 Z
@@ -591,8 +622,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
+  detection_source: config/webpack.config.js
   last_updated_by: Amanda Bullington
   last_updated_on: 2020-12-02 19:52:19.000000000 Z
 - name: gulp
@@ -605,7 +636,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/844/iruTC031.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2019-07-12 17:36:41.000000000 Z
@@ -619,7 +650,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Git Tools
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-bootstrap/package.json
+  detection_source: vendor/assets/bower_components/angular-bootstrap/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-02 23:41:58.000000000 Z
 - name: npm
@@ -630,7 +662,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
-  detection_source: vendor/assets/bower_components/angular/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-resource/package.json
+  detection_source: vendor/assets/bower_components/angular-resource/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-10-22 18:11:11.000000000 Z
 - name: Paperclip
@@ -641,6 +674,7 @@ tools:
   category: Assets and Media
   sub_category: File Uploads
   image_url: https://img.stackshare.io/service/2542/AqsQWFu-_400x400.jpg
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile
   detection_source: Gemfile
   last_updated_by: Ken-ichi
   last_updated_on: 2021-08-16 20:15:27.000000000 Z
@@ -652,6 +686,7 @@ tools:
   category: Communications
   sub_category: Transactional Email
   image_url: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/config/environments/production.rb
   detection_source: config/environments/production.rb
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2010-11-09 06:53:27.000000000 Z
@@ -665,7 +700,7 @@ tools:
   category: Application Utilities
   sub_category: User Management and Authentication
   image_url: https://img.stackshare.io/service/1432/devise.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2019-01-20 19:13:10.000000000 Z
@@ -678,8 +713,8 @@ tools:
   category: Application Utilities
   sub_category: Search as a Service
   image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
-  detection_source_url: Gemfile.lock
-  detection_source: docker-compose.yml
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
+  detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2019-09-11 16:13:54.000000000 Z
 - name: Lodash
@@ -691,7 +726,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2438/lodash.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-05-06 20:02:45.000000000 Z
@@ -706,8 +741,8 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
-  detection_source_url: package-lock.json
-  detection_source: vendor/assets/bower_components/moment/bower.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
+  detection_source: bower.json
   last_updated_by: Patrick Leary
   last_updated_on: 2016-01-22 18:29:11.000000000 Z
 - name: OmniAuth
@@ -720,7 +755,7 @@ tools:
   category: Application Utilities
   sub_category: User Management and Authentication
   image_url: https://img.stackshare.io/service/1433/omniauth.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2010-11-09 06:53:27.000000000 Z
@@ -733,7 +768,8 @@ tools:
   category: Application Utilities
   sub_category: Mapping APIs
   image_url: https://img.stackshare.io/service/3208/397ce8027eb036960f00dd5153d41993.png
-  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/ngInfiniteScroll/bower.json
+  detection_source: vendor/assets/bower_components/ngInfiniteScroll/bower.json
   last_updated_by: Patrick Leary
   last_updated_on: 2015-11-13 02:45:11.000000000 Z
 - name: Ramda
@@ -746,7 +782,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/3076/Ramda-01.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2016-04-04 14:37:13.000000000 Z
@@ -759,6 +795,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist
   detection_source: Repo Metadata
 - name: UglifyJS
   description: A JavaScript parser, minifier, compressor and beautifier toolkit.
@@ -768,6 +805,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2203/default_9058af6f02375a99f634f537d727e32df92ac262.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile
   detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2019-01-20 19:13:10.000000000 Z
@@ -778,13 +816,15 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/4253/nZXfdUQq_normal.jpg
+  detection_source_url: https://github.com/JoeCohen/inaturalist
   detection_source: Repo Metadata
 - name: js
   website_url: www.js.com
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/5588/jscom.png
-  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-bootstrap/package.json
+  detection_source: vendor/assets/bower_components/angular-bootstrap/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-02 23:41:58.000000000 Z
 - name: test
@@ -792,7 +832,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/5477/no-img-open-source.png
-  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-moment/package.json
+  detection_source: vendor/assets/bower_components/angular-moment/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-04 06:35:29.000000000 Z
 - name: "@babel/core"
@@ -805,7 +846,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-05-06 20:05:35.000000000 Z
@@ -819,7 +860,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16039/default_b8a893285867e41b5fc4a7631d8fc2da834d778c.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2020-04-21 18:13:23.000000000 Z
@@ -833,7 +874,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2020-04-21 18:13:23.000000000 Z
@@ -847,7 +888,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2021-11-10 03:32:26.000000000 Z
@@ -860,7 +901,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16999/default_43f23668e39c9b3381720c9c76540776b8a49167.png
-  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-bootstrap/package.json
+  detection_source: vendor/assets/bower_components/angular-bootstrap/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-02 23:41:58.000000000 Z
 - name: "@types/googlemaps"
@@ -873,7 +915,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17642/default_9126b5a628d81e3d41c9b1190587ab1aec9165c5.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2018-11-05 23:03:33.000000000 Z
@@ -887,7 +929,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2021-11-10 03:32:26.000000000 Z
@@ -901,7 +943,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16344/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2020-03-18 00:52:46.000000000 Z
@@ -914,7 +956,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16174/default_351a89f21bfb241e8dabeb1444cf56f529948708.png
-  detection_source: vendor/assets/bower_components/angular/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-bootstrap/package.json
+  detection_source: vendor/assets/bower_components/angular-bootstrap/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-02 23:41:58.000000000 Z
 - name: angular-route
@@ -926,6 +969,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18069/image.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-route/package.json
   detection_source: vendor/assets/bower_components/angular-route/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2015-11-13 02:45:11.000000000 Z
@@ -938,6 +982,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18273/default_75898a30f0389712301325cbd5e5019e01269891.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-bootstrap/package.json
   detection_source: vendor/assets/bower_components/angular-bootstrap/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-02 23:41:58.000000000 Z
@@ -951,7 +996,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2020-04-21 18:13:23.000000000 Z
@@ -965,7 +1010,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Amanda Bullington
   last_updated_on: 2021-03-03 03:08:59.000000000 Z
@@ -978,7 +1023,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17384/default_b39374c3a74b433364bfdbff07be26214bf186fd.png
-  detection_source: vendor/assets/bower_components/angular/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-bootstrap/package.json
+  detection_source: vendor/assets/bower_components/angular-bootstrap/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-02 23:41:58.000000000 Z
 - name: co
@@ -990,7 +1036,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16007/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
-  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-bootstrap/package.json
+  detection_source: vendor/assets/bower_components/angular-bootstrap/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-02 23:41:58.000000000 Z
 - name: coffeelint
@@ -1002,6 +1049,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16616/default_f7592cb347fae67ce7c7f221ddd5fd2cb0afc28f.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/ngInfiniteScroll/package.json
   detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2015-11-13 02:45:11.000000000 Z
@@ -1015,7 +1063,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18119/image.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2020-03-31 16:35:21.000000000 Z
@@ -1028,6 +1076,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18220/default_46cc7e5b7a8c78af11a3ee7db2fc5fe39f295a6e.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-bootstrap/package.json
   detection_source: vendor/assets/bower_components/angular-bootstrap/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-02 23:41:58.000000000 Z
@@ -1040,6 +1089,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17998/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-truncate/package.json
   detection_source: vendor/assets/bower_components/angular-truncate/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-14 01:05:22.000000000 Z
@@ -1052,6 +1102,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16202/default_2c2f2c7b016f84c0fad2576cb986cb14a5dbbc2f.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/ngInfiniteScroll/package.json
   detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2015-11-13 02:45:11.000000000 Z
@@ -1065,7 +1116,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17537/default_1922051267fa78212ab6eb1238cdf6aab8771493.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2021-03-16 21:15:15.000000000 Z
@@ -1086,7 +1137,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16224/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2016-02-23 05:11:43.000000000 Z
@@ -1100,7 +1151,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2018-08-22 14:59:49.000000000 Z
@@ -1121,7 +1172,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2020-04-21 18:13:23.000000000 Z
@@ -1135,7 +1186,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2020-04-21 18:13:23.000000000 Z
@@ -1149,7 +1200,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2020-04-21 18:13:23.000000000 Z
@@ -1163,7 +1214,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2021-11-10 03:32:26.000000000 Z
@@ -1176,6 +1227,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16804/default_55e3ea76a7929df1b71c5ea0c9b4130cc87323a4.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/ngInfiniteScroll/package.json
   detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2015-11-13 02:45:11.000000000 Z
@@ -1189,7 +1241,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16021/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
-  detection_source_url: vendor/assets/bower_components/angular-moment/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-moment/package.json
   detection_source: vendor/assets/bower_components/angular-moment/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2016-01-22 18:29:11.000000000 Z
@@ -1203,7 +1255,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16862/default_1b078765f7b7ae4ccce598a7251eb06451511e5e.png
-  detection_source_url: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/ngInfiniteScroll/package.json
   detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2015-11-13 02:45:11.000000000 Z
@@ -1217,7 +1269,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15939/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/ngInfiniteScroll/package.json
   detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2015-11-13 02:45:11.000000000 Z
@@ -1231,7 +1283,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16284/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
-  detection_source_url: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/ngInfiniteScroll/package.json
   detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2015-11-13 02:45:11.000000000 Z
@@ -1245,8 +1297,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16075/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
-  detection_source_url: vendor/assets/bower_components/angular-truncate/package.json
-  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-truncate/package.json
+  detection_source: vendor/assets/bower_components/angular-truncate/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-14 01:05:22.000000000 Z
 - name: grunt-contrib-connect
@@ -1259,7 +1311,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16236/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
-  detection_source_url: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/ngInfiniteScroll/package.json
   detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2015-11-13 02:45:11.000000000 Z
@@ -1273,8 +1325,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15898/default_59a1b5716eefa3750c20936c3d53ff13a6390ee1.png
-  detection_source_url: vendor/assets/bower_components/angular-moment/package.json
-  detection_source: vendor/assets/bower_components/angular-truncate/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-moment/package.json
+  detection_source: vendor/assets/bower_components/angular-moment/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2016-01-22 18:29:11.000000000 Z
 - name: grunt-contrib-uglify
@@ -1287,8 +1339,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15954/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
-  detection_source_url: vendor/assets/bower_components/angular-moment/package.json
-  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-moment/package.json
+  detection_source: vendor/assets/bower_components/angular-moment/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2016-01-22 18:29:11.000000000 Z
 - name: grunt-karma
@@ -1301,7 +1353,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16328/default_e8196e273db814cf9be505b35dec386fafb0dbaa.png
-  detection_source_url: vendor/assets/bower_components/angular-moment/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-moment/package.json
   detection_source: vendor/assets/bower_components/angular-moment/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2016-01-22 18:29:11.000000000 Z
@@ -1321,7 +1373,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17059/default_31b594d049ba66ce98c924544ccc4329a3f2d530.png
-  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-moment/package.json
+  detection_source: vendor/assets/bower_components/angular-moment/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-04 06:35:29.000000000 Z
 - name: http
@@ -1332,7 +1385,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16874/default_768abdabb94806c932ace6262b6bbc8241907245.png
-  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-bootstrap/package.json
+  detection_source: vendor/assets/bower_components/angular-bootstrap/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-02 23:41:58.000000000 Z
 - name: https
@@ -1344,7 +1398,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17546/default_8d32936cb624bf7f51657c1540463db0a3c4106e.png
-  detection_source: vendor/assets/bower_components/angular/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-bootstrap/package.json
+  detection_source: vendor/assets/bower_components/angular-bootstrap/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-02 23:41:58.000000000 Z
 - name: i
@@ -1356,7 +1411,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17326/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
-  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-bootstrap/package.json
+  detection_source: vendor/assets/bower_components/angular-bootstrap/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-02 23:41:58.000000000 Z
 - name: immutability-helper
@@ -1369,7 +1425,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17042/default_0e6669b56ffe7d68d8118eb8e85d024215fd5906.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2018-11-05 23:03:33.000000000 Z
@@ -1383,7 +1439,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16594/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2015-11-13 02:45:11.000000000 Z
@@ -1396,7 +1452,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16483/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
-  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-bootstrap/package.json
+  detection_source: vendor/assets/bower_components/angular-bootstrap/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-02 23:41:58.000000000 Z
 - name: is
@@ -1408,7 +1465,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17544/default_e665c133253b5cd434c1991167ebd25dc68f1c17.png
-  detection_source: vendor/assets/bower_components/angular/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-moment/package.json
+  detection_source: vendor/assets/bower_components/angular-moment/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-04 06:35:29.000000000 Z
 - name: jasmine-core
@@ -1421,7 +1479,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15905/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: vendor/assets/bower_components/angular-moment/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-moment/package.json
   detection_source: vendor/assets/bower_components/angular-moment/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2016-01-22 18:29:11.000000000 Z
@@ -1435,7 +1493,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15995/default_200de1a6fc4121e019ce4a5b0cf9ad37c7756e2d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2021-01-27 19:15:18.000000000 Z
@@ -1449,7 +1507,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16752/default_c11d90814ded8fcd305b22fdc42b42a3111f1f6d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2021-01-27 19:15:18.000000000 Z
@@ -1463,7 +1521,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15951/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: vendor/assets/bower_components/angular-moment/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-moment/package.json
   detection_source: vendor/assets/bower_components/angular-moment/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2016-01-22 18:29:11.000000000 Z
@@ -1477,7 +1535,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15886/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: vendor/assets/bower_components/angular-moment/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-moment/package.json
   detection_source: vendor/assets/bower_components/angular-moment/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2016-01-22 18:29:11.000000000 Z
@@ -1491,7 +1549,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15947/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: vendor/assets/bower_components/angular-moment/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-moment/package.json
   detection_source: vendor/assets/bower_components/angular-moment/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2016-01-22 18:29:11.000000000 Z
@@ -1505,7 +1563,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18422/default_fec2a16e3d4fd2d8184d454d72a65ab5133ec4ae.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2020-04-04 19:14:22.000000000 Z
@@ -1519,7 +1577,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16062/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
-  detection_source_url: vendor/assets/bower_components/angular-moment/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-moment/package.json
   detection_source: vendor/assets/bower_components/angular-moment/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2016-01-22 18:29:11.000000000 Z
@@ -1533,7 +1591,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16587/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-05-06 20:02:45.000000000 Z
@@ -1566,7 +1624,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16642/default_783b9b6c17b863f264c1418b0eb831316f741afd.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-05-06 20:02:45.000000000 Z
@@ -1580,7 +1638,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18656/default_f228716e0e2054736b7cef03e48c321d920064dc.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-05-06 20:02:45.000000000 Z
@@ -1594,7 +1652,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16970/default_277303773c2bdb575ee8f4bfe869f0a33d6755b2.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Amanda Bullington
   last_updated_on: 2021-08-12 23:45:18.000000000 Z
@@ -1608,7 +1666,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16277/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Ken-ichi
   last_updated_on: 2020-07-07 05:07:32.000000000 Z
@@ -1629,7 +1687,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15918/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2020-03-18 00:52:46.000000000 Z
@@ -1650,7 +1708,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15881/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2015-11-13 02:45:11.000000000 Z
@@ -1664,7 +1722,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18018/image.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Amanda Bullington
   last_updated_on: 2021-08-12 23:45:18.000000000 Z
@@ -1677,7 +1735,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17983/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
-  detection_source: vendor/assets/bower_components/angular-truncate/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-moment/package.json
+  detection_source: vendor/assets/bower_components/angular-moment/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-04 06:35:29.000000000 Z
 - name: np
@@ -1689,7 +1748,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16247/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
-  detection_source: vendor/assets/bower_components/angular/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-resource/package.json
+  detection_source: vendor/assets/bower_components/angular-resource/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-10-22 18:11:11.000000000 Z
 - name: npm
@@ -1701,7 +1761,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16105/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
-  detection_source: vendor/assets/bower_components/angular/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-resource/package.json
+  detection_source: vendor/assets/bower_components/angular-resource/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-10-22 18:11:11.000000000 Z
 - name: ol
@@ -1713,6 +1774,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18695/default_ba22650903e999378ab35f8093d2d808f0a46039.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/ngInfiniteScroll/package.json
   detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2015-11-13 02:45:11.000000000 Z
@@ -1725,7 +1787,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17784/default_b760b4f955878b0055c02bde0608c2f01e7d4f4f.png
-  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-bootstrap/package.json
+  detection_source: vendor/assets/bower_components/angular-bootstrap/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-02 23:41:58.000000000 Z
 - name: phantom
@@ -1737,6 +1800,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17469/default_2a4dc012d9584af49ba34825451ae7a5a8d75e4b.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-moment/package.json
   detection_source: vendor/assets/bower_components/angular-moment/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2016-01-22 18:29:11.000000000 Z
@@ -1750,7 +1814,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2018-11-05 23:03:33.000000000 Z
@@ -1764,8 +1828,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16813/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
-  detection_source_url: package-lock.json
-  detection_source: vendor/assets/bower_components/angular-truncate/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
+  detection_source: vendor/assets/bower_components/angular-resource/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-10-22 18:11:11.000000000 Z
 - name: react-bootstrap
@@ -1778,7 +1842,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16383/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2021-11-10 03:32:26.000000000 Z
@@ -1792,7 +1856,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16955/default_665377899254fe85c1cf6bf7f15e24c4180a76ac.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2021-11-10 03:32:26.000000000 Z
@@ -1806,7 +1870,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16710/default_9b37c4b9479b5cf61478ac117da829ccdd0ed0a0.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2021-11-10 03:32:26.000000000 Z
@@ -1820,7 +1884,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16799/default_dc62f5e9b636403c2d19676924f5b6b881abcac8.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2021-11-10 03:32:26.000000000 Z
@@ -1834,7 +1898,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2021-11-10 03:32:26.000000000 Z
@@ -1848,7 +1912,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16979/default_665377899254fe85c1cf6bf7f15e24c4180a76ac.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2021-11-10 03:32:26.000000000 Z
@@ -1862,7 +1926,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2021-11-10 03:32:26.000000000 Z
@@ -1875,6 +1939,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17342/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/ngInfiniteScroll/package.json
   detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2015-11-13 02:45:11.000000000 Z
@@ -1888,7 +1953,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17508/default_1d2902e8f9c84259702671591379572493b9009b.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-05-06 17:58:16.000000000 Z
@@ -1903,7 +1968,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17203/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-05-06 17:58:16.000000000 Z
@@ -1916,7 +1981,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16484/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
-  detection_source: vendor/assets/bower_components/angular-truncate/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-resource/package.json
+  detection_source: vendor/assets/bower_components/angular-resource/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-10-22 18:11:11.000000000 Z
 - name: st
@@ -1928,7 +1994,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18455/default_d8e945bfec4c4a608fb0493abf73c9ec1cffc9a2.png
-  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-bootstrap/package.json
+  detection_source: vendor/assets/bower_components/angular-bootstrap/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-02 23:41:58.000000000 Z
 - name: tar
@@ -1941,7 +2008,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16466/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: vendor/assets/bower_components/angular-truncate/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-14 01:05:22.000000000 Z
@@ -1954,9 +2021,23 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16400/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-truncate/package.json
   detection_source: vendor/assets/bower_components/angular-truncate/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-14 01:05:22.000000000 Z
+- name: test
+  description: ''
+  package_url: https://www.npmjs.com/test
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18204/default_329699d382cad74e0d389300999bd267b9699d3f.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-moment/package.json
+  detection_source: vendor/assets/bower_components/angular-moment/package.json
+  last_updated_by: Ken-ichi Ueda
+  last_updated_on: 2015-12-04 06:35:29.000000000 Z
 - name: tinycolor2
   description: Fast Color Parsing and Manipulation
   package_url: https://www.npmjs.com/tinycolor2
@@ -1967,7 +2048,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16845/default_768abdabb94806c932ace6262b6bbc8241907245.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2020-03-31 16:35:21.000000000 Z
@@ -1980,7 +2061,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18097/image.png
-  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-moment/package.json
+  detection_source: vendor/assets/bower_components/angular-moment/package.json
   last_updated_by: Patrick Leary
   last_updated_on: 2016-01-22 18:29:11.000000000 Z
 - name: underscore
@@ -1993,7 +2075,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15882/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-05-06 20:05:35.000000000 Z
@@ -2007,8 +2089,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16462/default_89ba91277e3434b03295bb11d22736632df1d04f.png
-  detection_source_url: package-lock.json
-  detection_source: vendor/assets/bower_components/ngInfiniteScroll/package.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
+  detection_source: vendor/assets/bower_components/angular-bootstrap/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-02 23:41:58.000000000 Z
 - name: utf8
@@ -2021,7 +2103,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17864/default_99a4718ac3f2beccb28962b727b0a38010c9b496.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2019-08-06 18:57:45.000000000 Z
@@ -2035,7 +2117,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2019-08-06 18:57:45.000000000 Z
@@ -2049,7 +2131,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16467/default_89ba91277e3434b03295bb11d22736632df1d04f.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2020-08-13 18:03:04.000000000 Z
@@ -2062,6 +2144,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17899/default_3bc64391130859f94a137a7dc6cb87cd54da546b.png
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/vendor/assets/bower_components/angular-truncate/package.json
   detection_source: vendor/assets/bower_components/angular-truncate/package.json
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2015-12-14 01:05:22.000000000 Z
@@ -2076,7 +2159,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19310/default_328c11a8ee25b2bcdb614a295e29c3b1b00779cf.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi
   last_updated_on: 2021-08-16 20:15:27.000000000 Z
@@ -2091,7 +2174,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19520/default_6fb1d8b9aef837cfaccc78fd09408418629c0be8.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi
   last_updated_on: 2021-08-16 20:15:27.000000000 Z
@@ -2105,7 +2188,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19078/default_4df61286a41b221e05fffb41a1003ffc1a8eaf4e.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2020-01-07 15:57:14.000000000 Z
@@ -2119,7 +2202,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19224/default_90da4313847baa579409c050c1ebb8de5a6e0fbc.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2019-01-20 19:13:10.000000000 Z
@@ -2133,7 +2216,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19104/default_fca7ffebc4c078263714788a3e4853bf74bde297.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi
   last_updated_on: 2021-08-16 20:15:27.000000000 Z
@@ -2147,7 +2230,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18849/default_887cb273c504fac90d07fc552b7b223fbb32ca39.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2015-01-27 21:36:51.000000000 Z
@@ -2161,7 +2244,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19576/image.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2021-09-17 01:55:05.000000000 Z
@@ -2175,7 +2258,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18990/default_c2edad6777219a9d77730c33c0ffc3c4598d107f.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2019-01-20 19:13:10.000000000 Z
@@ -2189,7 +2272,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19721/default_494e7d37d3a2cead7ed09c505b11b32ae3606a2b.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2019-01-20 19:13:10.000000000 Z
@@ -2203,7 +2286,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18896/default_9386886dd1c6c396a11bd4b49732afb9ec444f8d.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2021-09-17 01:55:05.000000000 Z
@@ -2217,7 +2300,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19097/default_a446ce2f074889d1160eee4b4a2fde34af7525e6.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2019-01-20 19:13:10.000000000 Z
@@ -2238,7 +2321,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18854/default_09811c2c16af4754129f39ba1dab0d23ca3d2476.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2019-01-20 19:13:10.000000000 Z
@@ -2252,7 +2335,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19157/default_c8270617b11a0e0bb186cecf4527f28719105688.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi
   last_updated_on: 2021-08-16 20:15:27.000000000 Z
@@ -2266,7 +2349,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19216/default_e38d6385c75dafbe16c1c806ccf1fd483b747794.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi
   last_updated_on: 2021-08-16 20:15:27.000000000 Z
@@ -2280,7 +2363,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19134/default_302643c2b99caa1c440c0d4aa23d4230e1cc78e3.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2019-01-20 19:13:10.000000000 Z
@@ -2302,7 +2385,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19459/default_de854f0c757466f4cce7c01e288f5f01a5e38432.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2019-01-20 19:13:10.000000000 Z
@@ -2316,7 +2399,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19562/default_57f0ab07a18f77bb23a7772b582a06b574867b53.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Brian
   last_updated_on: 2020-07-08 20:08:14.000000000 Z
@@ -2331,7 +2414,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19040/default_6307a3eb8ac1c7d425b9163e046ba444d20d3abd.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2021-09-17 01:55:05.000000000 Z
@@ -2345,7 +2428,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18897/default_31c6044490fb5c1bec1388b8ceb466b6ac78ae92.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2019-01-20 19:13:10.000000000 Z
@@ -2360,7 +2443,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19239/default_c4ed1d3f735f11415ee5d02b5a5ba48490465220.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2019-09-11 16:13:54.000000000 Z
@@ -2375,7 +2458,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19084/default_54dcdbda5f19ac7cce7dfde7a31f57a35d2cdc2f.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi
   last_updated_on: 2021-08-16 20:15:27.000000000 Z
@@ -2389,7 +2472,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19759/default_942693f4ab333f88cf5c1c9da594634c36877457.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2019-01-20 19:13:10.000000000 Z
@@ -2403,7 +2486,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18995/default_33b08efb2463b893403b434b8c4275715d78743b.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi
   last_updated_on: 2021-08-16 20:15:27.000000000 Z
@@ -2417,7 +2500,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19486/default_784a2cb941e3df7ba2e632b15e88998b8e4fa511.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2019-01-20 19:13:10.000000000 Z
@@ -2431,7 +2514,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18822/default_19184669508c0f71aec9521d5f14d71b77203130.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2019-01-20 19:13:10.000000000 Z
@@ -2445,7 +2528,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19504/default_9507d505ecf2d6fecc582d9657a2ec76851b6113.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2019-01-20 19:13:10.000000000 Z
@@ -2459,7 +2542,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19432/default_7aba8675ab8316dd86840277c6aaab7558b1bed8.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Grey Baker
   last_updated_on: 2019-04-17 11:56:30.000000000 Z
@@ -2474,7 +2557,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19246/default_518f3430d0c3ea4653c591ebd7e75da67f51cfaf.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot[bot]
   last_updated_on: 2019-04-24 18:45:17.000000000 Z
@@ -2488,7 +2571,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18823/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi
   last_updated_on: 2021-08-16 20:15:27.000000000 Z
@@ -2569,7 +2652,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19539/default_218dae89c7df5d5855caf68241b819cfe024f92e.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi
   last_updated_on: 2021-08-16 20:15:27.000000000 Z
@@ -2583,7 +2666,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18909/default_6011c3e13c0feeff577120981a21a5968e50756a.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi
   last_updated_on: 2021-08-16 20:15:27.000000000 Z
@@ -2597,7 +2680,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19712/default_aeaa8b24dd36f8e334bb5b9c0baaee88c37e0037.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi
   last_updated_on: 2021-08-16 20:15:27.000000000 Z
@@ -2612,7 +2695,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19543/default_b61dd0359952642720a34ea0a4100fb79cc4dfcc.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2018-10-12 16:55:48.000000000 Z
@@ -2626,7 +2709,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19260/default_64bfa7dff51ebcfaf31eb5005cda9a1de564987d.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2019-01-20 19:42:31.000000000 Z
@@ -2640,7 +2723,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18855/default_d343d9a7c573fa5dcbeb4d3c43d2ffe4afa82cc1.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2010-11-09 06:53:27.000000000 Z
@@ -2654,7 +2737,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19489/default_235e01dd950d1f80c14beead28dc8c06a1dbf108.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2021-08-25 21:58:37.000000000 Z
@@ -2668,7 +2751,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19298/default_665ed3fcb2a1ba0439337b543b18095155087d89.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2021-09-17 01:55:05.000000000 Z
@@ -2683,7 +2766,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19125/default_8cdfa50e17bca4b467d6718a237904b98923651a.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2021-09-17 01:55:05.000000000 Z
@@ -2697,7 +2780,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18853/default_b87d202e13d56f87c63181fa49bc5e099c9abaac.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi
   last_updated_on: 2020-07-07 05:07:32.000000000 Z
@@ -2711,7 +2794,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18836/default_669e0ebb464c584b580cfec09e646fddff70c02a.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2019-01-20 19:13:10.000000000 Z
@@ -2725,7 +2808,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19728/default_c83abd71b4fb91b9c1bf937d7824fa66fe3e6ca3.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi
   last_updated_on: 2021-08-16 20:15:27.000000000 Z
@@ -2739,7 +2822,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19268/default_67289672b0f514dd92f3c786eb2cf0a39b0db10f.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2021-09-17 01:55:05.000000000 Z
@@ -2753,7 +2836,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18830/default_ba8d7756589e5fc0164687950e3f091b32554546.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2021-09-17 01:55:05.000000000 Z
@@ -2767,7 +2850,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19270/default_67289672b0f514dd92f3c786eb2cf0a39b0db10f.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2021-09-17 01:55:05.000000000 Z
@@ -2781,7 +2864,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18892/default_b7088ec778267614a78a5a472c67252ec1721d10.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2021-09-17 01:55:05.000000000 Z
@@ -2795,7 +2878,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18887/default_1e22ca9f3f63a8c93249bae500705b9451e7e882.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2021-03-24 18:34:34.000000000 Z
@@ -2809,7 +2892,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18876/default_d416e715a80ce80ae31b87cff032f5873c8a9d2a.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2021-09-17 01:55:05.000000000 Z
@@ -2823,7 +2906,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18935/default_36bbb38c1cd5521e90d6e99982778960b00ec515.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi
   last_updated_on: 2021-08-16 20:15:27.000000000 Z
@@ -2838,7 +2921,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18912/default_f78521c51e3a38a8810251cfa8909b18ae0b40a8.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: todtb
   last_updated_on: 2021-08-04 00:41:42.000000000 Z
@@ -2853,7 +2936,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18819/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2019-01-20 19:13:10.000000000 Z
@@ -2868,7 +2951,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18932/default_36bbb38c1cd5521e90d6e99982778960b00ec515.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi
   last_updated_on: 2021-08-16 20:15:27.000000000 Z
@@ -2882,7 +2965,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18900/default_f0ad2b1ffbe10fdd866f9f8e5f812599d9e8085b.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi
   last_updated_on: 2021-08-16 20:15:27.000000000 Z
@@ -2897,7 +2980,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18967/default_20d16c1471b93397c8ef93b19baf0989f59663c0.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2019-01-20 19:13:10.000000000 Z
@@ -2912,7 +2995,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18824/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2016-05-27 16:34:47.000000000 Z
@@ -2926,7 +3009,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19383/default_b8d34ca81aebc76c0b551b666a1d21df7e697544.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2019-01-20 19:13:10.000000000 Z
@@ -2941,7 +3024,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18959/default_d56e7cc665032604d9f725997e6ccc641992a4f2.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2019-09-26 00:34:24.000000000 Z
@@ -2955,7 +3038,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19701/default_e4623cf87b5c0bb8667c5069c20ee5d59d70791d.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2019-01-20 19:13:10.000000000 Z
@@ -2969,7 +3052,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18895/default_9386886dd1c6c396a11bd4b49732afb9ec444f8d.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Ken-ichi Ueda
   last_updated_on: 2021-03-24 18:34:34.000000000 Z
@@ -2991,7 +3074,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19226/default_df0c87c1d1c9c662c2ad960d8e93130abb553ed2.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/JoeCohen/inaturalist/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Patrick Leary
   last_updated_on: 2019-01-20 19:13:10.000000000 Z
