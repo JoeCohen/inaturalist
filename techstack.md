@@ -3,63 +3,82 @@
 ## Tech Stack
 JoeCohen/inaturalist is built on the following main stack:
 
-- [Amazon S3](http://aws.amazon.com/s3) – Cloud Storage
-- [Twilio SendGrid](http://sendgrid.com) – Transactional Email
-- [New Relic](http://newrelic.com) – Performance Monitoring
-- [Capistrano](http://capistranorb.com/) – Server Configuration and Automation
-- [Coveralls](https://coveralls.io/) – Code Coverage
-- [Jasmine](http://jasmine.github.io/) – Javascript Testing Framework
-- [Elasticsearch](https://www.elastic.co/products/elasticsearch) – Search as a Service
-- [gulp](http://gulpjs.com/) – JS Build Tools / JS Task Runners
-- [Grunt](http://gruntjs.com/) – JS Build Tools / JS Task Runners
-- [Ruby](https://www.ruby-lang.org) – Languages
-- [Rails](http://rubyonrails.org/) – Frameworks (Full Stack)
+- [C lang](http://en.wikipedia.org/wiki/C_(programming_language)) – Languages
+- [CoffeeScript](http://coffeescript.org/) – Languages
+- [D](http://dlang.org/) – Languages
+- [Eta](http://eta-lang.org/) – Languages
+- [Gherkin](https://cucumber.io/docs/gherkin/reference/) – Languages
+- [HAML](http://haml.info/) – Languages
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - [PHP](http://www.php.net/) – Languages
 - [Python](https://www.python.org) – Languages
+- [Ruby](https://www.ruby-lang.org) – Languages
+- [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
+- [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
+- [Angular](https://angular.io) – Javascript MVC Frameworks
+- [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
+- [C3.js](http://c3js.org/) – Charting Libraries
+- [D3.js](http://d3js.org/) – Charting Libraries
+- [Echo](https://echo.labstack.com) – Microframeworks (Backend)
 - [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
+- [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) – Remote Procedure Call (RPC)
+- [Rails](http://rubyonrails.org/) – Frameworks (Full Stack)
 - [React](https://reactjs.org/) – Javascript UI Libraries
+- [Redux](https://redux.js.org/) – State Management Library
 - [jQuery](http://jquery.com/) – Javascript UI Libraries
+- [redux-thunk](https://github.com/gaearon/redux-thunk) – State Management Library
+- [Amazon S3](http://aws.amazon.com/s3) – Cloud Storage
+- [Chroma](https://www.trychroma.com/) – Vector Databases
+- [Memcached](http://memcached.org/) – Databases
 - [PostgreSQL](http://www.postgresql.org/) – Databases
 - [Redis](http://redis.io/) – In-Memory Databases
-- [Memcached](http://memcached.org/) – Databases
-- [Puma](http://puma.io/) – Web Servers
-- [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
-- [HAML](http://haml.info/) – Languages
-- [CoffeeScript](http://coffeescript.org/) – Languages
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- [Karma](http://karma-runner.github.io/) – Browser Testing
-- [Devise](https://github.com/plataformatec/devise) – User Management and Authentication
-- [OmniAuth](https://github.com/intridea/omniauth) – User Management and Authentication
-- [C3.js](http://c3js.org/) – Charting Libraries
-- [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
-- [Logstash](http://logstash.net/) – Log Management
-- [Kibana](https://www.elastic.co/kibana) – Monitoring Tools
-- [Protractor](http://angular.github.io/protractor) – Javascript Testing Framework
-- [PhantomJS](https://phantomjs.org/) – Headless Browsers
-- [JSHint](http://www.jshint.com/about/) – Code Review
-- [UglifyJS](http://lisperator.net/uglifyjs/) – Javascript Utilities & Libraries
-- [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
-- [Lodash](https://lodash.com) – Javascript Utilities & Libraries
-- [Gherkin](https://cucumber.io/docs/gherkin/reference/) – Languages
-- [RSpec](https://rspec.info/) – Testing Frameworks
-- [Paperclip](https://github.com/thoughtbot/paperclip) – File Uploads
-- [Cucumber](https://cukes.info/) – Testing Frameworks
-- [Capybara](http://jnicklas.github.io/capybara/) – Testing Frameworks
-- [RuboCop](http://batsov.com/rubocop/) – Code Review
-- [Babel](http://babeljs.io/) – JavaScript Compilers
-- [Ramda](https://ramdajs.com/) – Javascript Utilities & Libraries
-- [D](http://dlang.org/) – Languages
-- [OpenLayers](http://openlayers.org/) – Mapping APIs
-- [ESLint](http://eslint.org/) – Code Review
-- [Moment.js](http://momentjs.com/) – Javascript Utilities & Libraries
-- [Redux](https://redux.js.org/) – State Management Library
-- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
-- [redux-thunk](https://github.com/gaearon/redux-thunk) – State Management Library
-- [hub](http://hub.github.com/) – Git Tools
-- [ws](https://github.com/websockets/ws) – Realtime Backend / API
-- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [dat](http://dat-data.com/) – Database Tools
 - [ent](https://entgo.io/) – Object Relational Mapper (ORM)
+- [ws](https://github.com/websockets/ws) – Realtime Backend / API
+- [Babel](http://babeljs.io/) – JavaScript Compilers
+- [Capistrano](http://capistranorb.com/) – Server Configuration and Automation
+- [Capybara](http://jnicklas.github.io/capybara/) – Testing Frameworks
+- [Component](http://component.io) – Front End Package Manager
+- [Composer](https://getcomposer.org/) – Package Managers
+- [Coveralls](https://coveralls.io/) – Code Coverage
+- [Cucumber](https://cukes.info/) – Testing Frameworks
+- [ESLint](http://eslint.org/) – Code Review
+- [GitHub](https://github.com/) – Code Collaboration & Version Control
+- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [Grunt](http://gruntjs.com/) – JS Build Tools / JS Task Runners
+- [JSHint](http://www.jshint.com/about/) – Code Review
+- [Jasmine](http://jasmine.github.io/) – Javascript Testing Framework
+- [Karma](http://karma-runner.github.io/) – Browser Testing
+- [Kibana](https://www.elastic.co/kibana) – Monitoring Tools
+- [Logstash](http://logstash.net/) – Log Management
+- [New Relic](http://newrelic.com) – Performance Monitoring
+- [PhantomJS](https://phantomjs.org/) – Headless Browsers
+- [Protractor](http://angular.github.io/protractor) – Javascript Testing Framework
+- [Puma](http://puma.io/) – Web Servers
+- [RSpec](https://rspec.info/) – Testing Frameworks
+- [Rome](https://rome.tools/) – JavaScript Compilers
+- [RuboCop](http://batsov.com/rubocop/) – Code Review
 - [Travis CI](http://travis-ci.com/) – Continuous Integration
+- [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
+- [gulp](http://gulpjs.com/) – JS Build Tools / JS Task Runners
+- [hub](http://hub.github.com/) – Git Tools
+- [Descript](https://www.descript.com/) – Video Marketing and Analytics
+- [Gmail](https://mail.google.com) – Email Services
+- [Paperclip](https://github.com/thoughtbot/paperclip) – File Uploads
+- [Twilio SendGrid](http://sendgrid.com) – Transactional Email
+- [Typ](https://www.typ-set.com/) – File Conversion
+- [Devise](https://github.com/plataformatec/devise) – User Management and Authentication
+- [Elasticsearch](https://www.elastic.co/products/elasticsearch) – Search as a Service
+- [Lodash](https://lodash.com) – Javascript Utilities & Libraries
+- [Moment.js](http://momentjs.com/) – Javascript Utilities & Libraries
+- [OmniAuth](https://github.com/intridea/omniauth) – User Management and Authentication
+- [OpenLayers](http://openlayers.org/) – Mapping APIs
+- [Ramda](https://ramdajs.com/) – Javascript Utilities & Libraries
+- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- [Timezone](https://timezone.io/) – Time Tracking
+- [UglifyJS](http://lisperator.net/uglifyjs/) – Javascript Utilities & Libraries
+- [Underscore](http://underscorejs.org/) – Javascript Utilities & Libraries
+- [Vercel AI SDK](https://sdk.vercel.ai/docs) – Large Language Model Tools
 
 Full tech stack [here](/techstack.md)
 
@@ -69,63 +88,82 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 JoeCohen/inaturalist is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/25/amazon-s3.png' alt='Amazon S3'/> [Amazon S3](http://aws.amazon.com/s3) – Cloud Storage
-- <img width='25' height='25' src='https://img.stackshare.io/service/43/kQ_6nwmP.jpg' alt='Twilio SendGrid'/> [Twilio SendGrid](http://sendgrid.com) – Transactional Email
-- <img width='25' height='25' src='https://img.stackshare.io/service/103/default_193410db3a7e419c7b436961bf41d733c7346b59.png' alt='New Relic'/> [New Relic](http://newrelic.com) – Performance Monitoring
-- <img width='25' height='25' src='https://img.stackshare.io/service/661/5da4e1d78e930197cb7dc002ceafdfda.png' alt='Capistrano'/> [Capistrano](http://capistranorb.com/) – Server Configuration and Automation
-- <img width='25' height='25' src='https://img.stackshare.io/service/680/a43e4a04cb9f778842de43f95db59a14.png' alt='Coveralls'/> [Coveralls](https://coveralls.io/) – Code Coverage
-- <img width='25' height='25' src='https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png' alt='Jasmine'/> [Jasmine](http://jasmine.github.io/) – Javascript Testing Framework
-- <img width='25' height='25' src='https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png' alt='Elasticsearch'/> [Elasticsearch](https://www.elastic.co/products/elasticsearch) – Search as a Service
-- <img width='25' height='25' src='https://img.stackshare.io/service/844/iruTC031.png' alt='gulp'/> [gulp](http://gulpjs.com/) – JS Build Tools / JS Task Runners
-- <img width='25' height='25' src='https://img.stackshare.io/service/845/falgg2jybmhgk16y62lr.png' alt='Grunt'/> [Grunt](http://gruntjs.com/) – JS Build Tools / JS Task Runners
-- <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/990/x57_Lorv.png' alt='Rails'/> [Rails](http://rubyonrails.org/) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='C lang'/> [C lang](http://en.wikipedia.org/wiki/C_(programming_language)) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1178/slQydAMv.png' alt='CoffeeScript'/> [CoffeeScript](http://coffeescript.org/) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/3117/d-5.png' alt='D'/> [D](http://dlang.org/) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/6490/2OjlqE5m.jpg' alt='Eta'/> [Eta](http://eta-lang.org/) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/2460/default_aff27c02548fadb1b7e6f85a2b0da1c5dca5cc08.png' alt='Gherkin'/> [Gherkin](https://cucumber.io/docs/gherkin/reference/) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1169/Picture_2.png' alt='HAML'/> [HAML](http://haml.info/) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg' alt='PHP'/> [PHP](http://www.php.net/) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png' alt='SQL'/> [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1014/IoPy1dce_400x400.png' alt='.NET'/> [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/service/3745/cb8U-gL6_400x400.jpg' alt='Angular'/> [Angular](https://angular.io) – Javascript MVC Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/1101/C9QJ7V3X.png' alt='Bootstrap'/> [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='C3.js'/> [C3.js](http://c3js.org/) – Charting Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/1491/HgKolWB5_400x400.jpg' alt='D3.js'/> [D3.js](http://d3js.org/) – Charting Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/4996/9P0MlumU_400x400.jpg' alt='Echo'/> [Echo](https://echo.labstack.com) – Microframeworks (Backend)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/service/2969/0Zflj6Y__400x400.jpg' alt='REST'/> [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) – Remote Procedure Call (RPC)
+- <img width='25' height='25' src='https://img.stackshare.io/service/990/x57_Lorv.png' alt='Rails'/> [Rails](http://rubyonrails.org/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/4074/13142323.png' alt='Redux'/> [Redux](https://redux.js.org/) – State Management Library
 - <img width='25' height='25' src='https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg' alt='jQuery'/> [jQuery](http://jquery.com/) – Javascript UI Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/5448/13142323.png' alt='redux-thunk'/> [redux-thunk](https://github.com/gaearon/redux-thunk) – State Management Library
+- <img width='25' height='25' src='https://img.stackshare.io/service/25/amazon-s3.png' alt='Amazon S3'/> [Amazon S3](http://aws.amazon.com/s3) – Cloud Storage
+- <img width='25' height='25' src='https://img.stackshare.io/service/101828/default_de3ae68ae3ebc7fda7f97083ea89a050444976ff.png' alt='Chroma'/> [Chroma](https://www.trychroma.com/) – Vector Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/1040/hDNnpa4a_400x400.jpg' alt='Memcached'/> [Memcached](http://memcached.org/) – Databases
 - <img width='25' height='25' src='https://img.stackshare.io/service/1028/ASOhU5xJ.png' alt='PostgreSQL'/> [PostgreSQL](http://www.postgresql.org/) – Databases
 - <img width='25' height='25' src='https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png' alt='Redis'/> [Redis](http://redis.io/) – In-Memory Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1040/hDNnpa4a_400x400.jpg' alt='Memcached'/> [Memcached](http://memcached.org/) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1055/favicon.png' alt='Puma'/> [Puma](http://puma.io/) – Web Servers
-- <img width='25' height='25' src='https://img.stackshare.io/service/1101/C9QJ7V3X.png' alt='Bootstrap'/> [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/1169/Picture_2.png' alt='HAML'/> [HAML](http://haml.info/) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1178/slQydAMv.png' alt='CoffeeScript'/> [CoffeeScript](http://coffeescript.org/) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1420/TidYGd6a.png' alt='Karma'/> [Karma](http://karma-runner.github.io/) – Browser Testing
-- <img width='25' height='25' src='https://img.stackshare.io/service/1432/devise.png' alt='Devise'/> [Devise](https://github.com/plataformatec/devise) – User Management and Authentication
-- <img width='25' height='25' src='https://img.stackshare.io/service/1433/omniauth.png' alt='OmniAuth'/> [OmniAuth](https://github.com/intridea/omniauth) – User Management and Authentication
-- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='C3.js'/> [C3.js](http://c3js.org/) – Charting Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/1682/IMG_4636.PNG' alt='Webpack'/> [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
-- <img width='25' height='25' src='https://img.stackshare.io/service/1683/preview.png' alt='Logstash'/> [Logstash](http://logstash.net/) – Log Management
-- <img width='25' height='25' src='https://img.stackshare.io/service/1722/Image_2019-05-20_at_4.53.31_PM.png' alt='Kibana'/> [Kibana](https://www.elastic.co/kibana) – Monitoring Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/1754/protractor-logo1.png' alt='Protractor'/> [Protractor](http://angular.github.io/protractor) – Javascript Testing Framework
-- <img width='25' height='25' src='https://img.stackshare.io/service/1832/phantomjs.png' alt='PhantomJS'/> [PhantomJS](https://phantomjs.org/) – Headless Browsers
-- <img width='25' height='25' src='https://img.stackshare.io/service/1945/mzh2bRes_400x400.png' alt='JSHint'/> [JSHint](http://www.jshint.com/about/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/2203/default_9058af6f02375a99f634f537d727e32df92ac262.png' alt='UglifyJS'/> [UglifyJS](http://lisperator.net/uglifyjs/) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png' alt='SQL'/> [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/2438/lodash.png' alt='Lodash'/> [Lodash](https://lodash.com) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/2460/default_aff27c02548fadb1b7e6f85a2b0da1c5dca5cc08.png' alt='Gherkin'/> [Gherkin](https://cucumber.io/docs/gherkin/reference/) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/2539/logo.png' alt='RSpec'/> [RSpec](https://rspec.info/) – Testing Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/2542/AqsQWFu-_400x400.jpg' alt='Paperclip'/> [Paperclip](https://github.com/thoughtbot/paperclip) – File Uploads
-- <img width='25' height='25' src='https://img.stackshare.io/service/2544/jasVAxyJ.png' alt='Cucumber'/> [Cucumber](https://cukes.info/) – Testing Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/2595/capybara.png' alt='Capybara'/> [Capybara](http://jnicklas.github.io/capybara/) – Testing Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/2643/rubocop.png' alt='RuboCop'/> [RuboCop](http://batsov.com/rubocop/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/2739/-1wfGjNw.png' alt='Babel'/> [Babel](http://babeljs.io/) – JavaScript Compilers
-- <img width='25' height='25' src='https://img.stackshare.io/service/3076/Ramda-01.png' alt='Ramda'/> [Ramda](https://ramdajs.com/) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/3117/d-5.png' alt='D'/> [D](http://dlang.org/) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/3208/397ce8027eb036960f00dd5153d41993.png' alt='OpenLayers'/> [OpenLayers](http://openlayers.org/) – Mapping APIs
-- <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png' alt='Moment.js'/> [Moment.js](http://momentjs.com/) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/4074/13142323.png' alt='Redux'/> [Redux](https://redux.js.org/) – State Management Library
-- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
-- <img width='25' height='25' src='https://img.stackshare.io/service/5448/13142323.png' alt='redux-thunk'/> [redux-thunk](https://github.com/gaearon/redux-thunk) – State Management Library
-- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='hub'/> [hub](http://hub.github.com/) – Git Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/11381/no-img-open-source.png' alt='ws'/> [ws](https://github.com/websockets/ws) – Realtime Backend / API
-- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/2504/1ca014a423414068bf3462747c3ef894.png' alt='dat'/> [dat](http://dat-data.com/) – Database Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/21146/default_3b393819f74c4cb10f98fa9e683fa28cf6cc85f5.png' alt='ent'/> [ent](https://entgo.io/) – Object Relational Mapper (ORM)
+- <img width='25' height='25' src='https://img.stackshare.io/service/11381/no-img-open-source.png' alt='ws'/> [ws](https://github.com/websockets/ws) – Realtime Backend / API
+- <img width='25' height='25' src='https://img.stackshare.io/service/2739/-1wfGjNw.png' alt='Babel'/> [Babel](http://babeljs.io/) – JavaScript Compilers
+- <img width='25' height='25' src='https://img.stackshare.io/service/661/5da4e1d78e930197cb7dc002ceafdfda.png' alt='Capistrano'/> [Capistrano](http://capistranorb.com/) – Server Configuration and Automation
+- <img width='25' height='25' src='https://img.stackshare.io/service/2595/capybara.png' alt='Capybara'/> [Capybara](http://jnicklas.github.io/capybara/) – Testing Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/848/b5afc399fabed86ab0580f68f8b9b553.png' alt='Component'/> [Component](http://component.io) – Front End Package Manager
+- <img width='25' height='25' src='https://img.stackshare.io/service/1688/New_Project__65_.png' alt='Composer'/> [Composer](https://getcomposer.org/) – Package Managers
+- <img width='25' height='25' src='https://img.stackshare.io/service/680/a43e4a04cb9f778842de43f95db59a14.png' alt='Coveralls'/> [Coveralls](https://coveralls.io/) – Code Coverage
+- <img width='25' height='25' src='https://img.stackshare.io/service/2544/jasVAxyJ.png' alt='Cucumber'/> [Cucumber](https://cukes.info/) – Testing Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/27/default_869c34d29acc794d60ecdd5d2b5bfc042a80a4ec.jpg' alt='GitHub'/> [GitHub](https://github.com/) – Code Collaboration & Version Control
+- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/845/falgg2jybmhgk16y62lr.png' alt='Grunt'/> [Grunt](http://gruntjs.com/) – JS Build Tools / JS Task Runners
+- <img width='25' height='25' src='https://img.stackshare.io/service/1945/mzh2bRes_400x400.png' alt='JSHint'/> [JSHint](http://www.jshint.com/about/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png' alt='Jasmine'/> [Jasmine](http://jasmine.github.io/) – Javascript Testing Framework
+- <img width='25' height='25' src='https://img.stackshare.io/service/1420/TidYGd6a.png' alt='Karma'/> [Karma](http://karma-runner.github.io/) – Browser Testing
+- <img width='25' height='25' src='https://img.stackshare.io/service/1722/Image_2019-05-20_at_4.53.31_PM.png' alt='Kibana'/> [Kibana](https://www.elastic.co/kibana) – Monitoring Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/1683/preview.png' alt='Logstash'/> [Logstash](http://logstash.net/) – Log Management
+- <img width='25' height='25' src='https://img.stackshare.io/service/103/default_193410db3a7e419c7b436961bf41d733c7346b59.png' alt='New Relic'/> [New Relic](http://newrelic.com) – Performance Monitoring
+- <img width='25' height='25' src='https://img.stackshare.io/service/1832/phantomjs.png' alt='PhantomJS'/> [PhantomJS](https://phantomjs.org/) – Headless Browsers
+- <img width='25' height='25' src='https://img.stackshare.io/service/1754/protractor-logo1.png' alt='Protractor'/> [Protractor](http://angular.github.io/protractor) – Javascript Testing Framework
+- <img width='25' height='25' src='https://img.stackshare.io/service/1055/favicon.png' alt='Puma'/> [Puma](http://puma.io/) – Web Servers
+- <img width='25' height='25' src='https://img.stackshare.io/service/2539/logo.png' alt='RSpec'/> [RSpec](https://rspec.info/) – Testing Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/25589/default_4a6d6ac5f685e81da1aeeb4f9dfe938685fdf940.jpg' alt='Rome'/> [Rome](https://rome.tools/) – JavaScript Compilers
+- <img width='25' height='25' src='https://img.stackshare.io/service/2643/rubocop.png' alt='RuboCop'/> [RuboCop](http://batsov.com/rubocop/) – Code Review
 - <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/1682/IMG_4636.PNG' alt='Webpack'/> [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
+- <img width='25' height='25' src='https://img.stackshare.io/service/844/iruTC031.png' alt='gulp'/> [gulp](http://gulpjs.com/) – JS Build Tools / JS Task Runners
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='hub'/> [hub](http://hub.github.com/) – Git Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/21344/default_6f7cae8b4ddb7a7b52b07db55f14a397f7953656.jpg' alt='Descript'/> [Descript](https://www.descript.com/) – Video Marketing and Analytics
+- <img width='25' height='25' src='https://img.stackshare.io/service/3167/default_2d280843054d533c0a56c573c2e47e2cc1105a88.jpg' alt='Gmail'/> [Gmail](https://mail.google.com) – Email Services
+- <img width='25' height='25' src='https://img.stackshare.io/service/2542/AqsQWFu-_400x400.jpg' alt='Paperclip'/> [Paperclip](https://github.com/thoughtbot/paperclip) – File Uploads
+- <img width='25' height='25' src='https://img.stackshare.io/service/43/kQ_6nwmP.jpg' alt='Twilio SendGrid'/> [Twilio SendGrid](http://sendgrid.com) – Transactional Email
+- <img width='25' height='25' src='https://img.stackshare.io/service/11914/typ.png' alt='Typ'/> [Typ](https://www.typ-set.com/) – File Conversion
+- <img width='25' height='25' src='https://img.stackshare.io/service/1432/devise.png' alt='Devise'/> [Devise](https://github.com/plataformatec/devise) – User Management and Authentication
+- <img width='25' height='25' src='https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png' alt='Elasticsearch'/> [Elasticsearch](https://www.elastic.co/products/elasticsearch) – Search as a Service
+- <img width='25' height='25' src='https://img.stackshare.io/service/2438/lodash.png' alt='Lodash'/> [Lodash](https://lodash.com) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png' alt='Moment.js'/> [Moment.js](http://momentjs.com/) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/1433/omniauth.png' alt='OmniAuth'/> [OmniAuth](https://github.com/intridea/omniauth) – User Management and Authentication
+- <img width='25' height='25' src='https://img.stackshare.io/service/3208/397ce8027eb036960f00dd5153d41993.png' alt='OpenLayers'/> [OpenLayers](http://openlayers.org/) – Mapping APIs
+- <img width='25' height='25' src='https://img.stackshare.io/service/3076/Ramda-01.png' alt='Ramda'/> [Ramda](https://ramdajs.com/) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- <img width='25' height='25' src='https://img.stackshare.io/service/9576/default_7b6755d014b3e39c3149d5a18bc3a75d3817f421.png' alt='Timezone'/> [Timezone](https://timezone.io/) – Time Tracking
+- <img width='25' height='25' src='https://img.stackshare.io/service/2203/default_9058af6f02375a99f634f537d727e32df92ac262.png' alt='UglifyJS'/> [UglifyJS](http://lisperator.net/uglifyjs/) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/1150/underscore-js.png' alt='Underscore'/> [Underscore](http://underscorejs.org/) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/101756/default_4f2991cba3ec7fdd1cc87de69f4868157b0f2001.png' alt='Vercel AI SDK'/> [Vercel AI SDK](https://sdk.vercel.ai/docs) – Large Language Model Tools
 
 Full tech stack [here](/techstack.md)
 
@@ -136,13 +174,21 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [JoeCohen/inaturalist](https://github.com/JoeCohen/inaturalist)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|216<br/>Tools used|01/05/24 <br/>Report generated|
+|271<br/>Tools used|03/21/24 <br/>Report generated|
 |------|------|
 </div>
 
-## <img src='https://img.stackshare.io/languages.svg'/> Languages (10)
+## <img src='https://img.stackshare.io/languages.svg'/> Languages (12)
 <table><tr>
   <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/no-img-open-source.png' alt='C lang'>
+  <br>
+  <sub><a href="http://en.wikipedia.org/wiki/C_(programming_language)">C lang</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/6727/css.png' alt='CSS 3'>
   <br>
   <sub><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3">CSS 3</a></sub>
@@ -162,6 +208,14 @@ Full tech stack [here](/techstack.md)
   <img width='36' height='36' src='https://img.stackshare.io/service/3117/d-5.png' alt='D'>
   <br>
   <sub><a href="http://dlang.org/">D</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/6490/2OjlqE5m.jpg' alt='Eta'>
+  <br>
+  <sub><a href="http://eta-lang.org/">Eta</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -190,7 +244,9 @@ Full tech stack [here](/techstack.md)
   <sub></sub>
 </td>
 
-<td align='center'>
+</tr>
+<tr>
+  <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg' alt='PHP'>
   <br>
   <sub><a href="http://www.php.net/">PHP</a></sub>
@@ -206,9 +262,7 @@ Full tech stack [here](/techstack.md)
   <sub></sub>
 </td>
 
-</tr>
-<tr>
-  <td align='center'>
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'>
   <br>
   <sub><a href="https://www.ruby-lang.org">Ruby</a></sub>
@@ -227,9 +281,25 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/frameworks.svg'/> Frameworks (8)
+## <img src='https://img.stackshare.io/frameworks.svg'/> Frameworks (13)
 <table><tr>
   <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/1014/IoPy1dce_400x400.png' alt='.NET'>
+  <br>
+  <sub><a href="http://www.microsoft.com/net/">.NET</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/3745/cb8U-gL6_400x400.jpg' alt='Angular'>
+  <br>
+  <sub><a href="https://angular.io">Angular</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1101/C9QJ7V3X.png' alt='Bootstrap'>
   <br>
   <sub><a href="http://getbootstrap.com/">Bootstrap</a></sub>
@@ -246,14 +316,40 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/1491/HgKolWB5_400x400.jpg' alt='D3.js'>
   <br>
-  <sub><a href="http://nodejs.org/">Node.js</a></sub>
+  <sub><a href="http://d3js.org/">D3.js</a></sub>
   <br>
   <sub></sub>
 </td>
 
 <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/4996/9P0MlumU_400x400.jpg' alt='Echo'>
+  <br>
+  <sub><a href="https://echo.labstack.com">Echo</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'>
+  <br>
+  <sub><a href="http://nodejs.org/">Node.js</a></sub>
+  <br>
+  <sub>v12.13.0</sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/2969/0Zflj6Y__400x400.jpg' alt='REST'>
+  <br>
+  <sub><a href="https://en.wikipedia.org/wiki/Representational_state_transfer">REST</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+</tr>
+<tr>
+  <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/990/x57_Lorv.png' alt='Rails'>
   <br>
   <sub><a href="http://rubyonrails.org/">Rails</a></sub>
@@ -296,7 +392,7 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/databases.svg'/> Data (6)
+## <img src='https://img.stackshare.io/databases.svg'/> Data (8)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/25/amazon-s3.png' alt='Amazon S3'>
@@ -307,11 +403,19 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/101828/default_de3ae68ae3ebc7fda7f97083ea89a050444976ff.png' alt='Chroma'>
+  <br>
+  <sub><a href="https://www.trychroma.com/">Chroma</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1040/hDNnpa4a_400x400.jpg' alt='Memcached'>
   <br>
   <sub><a href="http://memcached.org/">Memcached</a></sub>
   <br>
-  <sub></sub>
+  <sub>v1.6.6</sub>
 </td>
 
 <td align='center'>
@@ -326,6 +430,14 @@ Full tech stack [here](/techstack.md)
   <img width='36' height='36' src='https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png' alt='Redis'>
   <br>
   <sub><a href="http://redis.io/">Redis</a></sub>
+  <br>
+  <sub>v6.0.3</sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/2504/1ca014a423414068bf3462747c3ef894.png' alt='dat'>
+  <br>
+  <sub><a href="http://dat-data.com/">dat</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -349,7 +461,7 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/devops.svg'/> DevOps (27)
+## <img src='https://img.stackshare.io/devops.svg'/> DevOps (33)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/2739/-1wfGjNw.png' alt='Babel'>
@@ -357,6 +469,14 @@ Full tech stack [here](/techstack.md)
   <sub><a href="http://babeljs.io/">Babel</a></sub>
   <br>
   <sub>v7.1.2</sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/847/66db62603f426a8fc6664081811be6d4.png' alt='Bower'>
+  <br>
+  <sub><a href="http://bower.io">Bower</a></sub>
+  <br>
+  <sub></sub>
 </td>
 
 <td align='center'>
@@ -376,6 +496,22 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/848/b5afc399fabed86ab0580f68f8b9b553.png' alt='Component'>
+  <br>
+  <sub><a href="http://component.io">Component</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/1688/New_Project__65_.png' alt='Composer'>
+  <br>
+  <sub><a href="https://getcomposer.org/">Composer</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/680/a43e4a04cb9f778842de43f95db59a14.png' alt='Coveralls'>
   <br>
   <sub><a href="https://coveralls.io/">Coveralls</a></sub>
@@ -391,7 +527,9 @@ Full tech stack [here](/techstack.md)
   <sub></sub>
 </td>
 
-<td align='center'>
+</tr>
+<tr>
+  <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'>
   <br>
   <sub><a href="http://eslint.org/">ESLint</a></sub>
@@ -408,6 +546,14 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/27/default_869c34d29acc794d60ecdd5d2b5bfc042a80a4ec.jpg' alt='GitHub'>
+  <br>
+  <sub><a href="https://github.com/">GitHub</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'>
   <br>
   <sub><a href="https://github.com/features/actions">GitHub Actions</a></sub>
@@ -415,9 +561,7 @@ Full tech stack [here](/techstack.md)
   <sub></sub>
 </td>
 
-</tr>
-<tr>
-  <td align='center'>
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/845/falgg2jybmhgk16y62lr.png' alt='Grunt'>
   <br>
   <sub><a href="http://gruntjs.com/">Grunt</a></sub>
@@ -449,7 +593,9 @@ Full tech stack [here](/techstack.md)
   <sub>v0.13.14</sub>
 </td>
 
-<td align='center'>
+</tr>
+<tr>
+  <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1722/Image_2019-05-20_at_4.53.31_PM.png' alt='Kibana'>
   <br>
   <sub><a href="https://www.elastic.co/kibana">Kibana</a></sub>
@@ -474,6 +620,14 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg' alt='NuGet'>
+  <br>
+  <sub><a href="https://www.nuget.org/">NuGet</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1832/phantomjs.png' alt='PhantomJS'>
   <br>
   <sub><a href="https://phantomjs.org/">PhantomJS</a></sub>
@@ -481,9 +635,7 @@ Full tech stack [here](/techstack.md)
   <sub></sub>
 </td>
 
-</tr>
-<tr>
-  <td align='center'>
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1754/protractor-logo1.png' alt='Protractor'>
   <br>
   <sub><a href="http://angular.github.io/protractor">Protractor</a></sub>
@@ -507,12 +659,22 @@ Full tech stack [here](/techstack.md)
   <sub></sub>
 </td>
 
-<td align='center'>
+</tr>
+<tr>
+  <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/2539/logo.png' alt='RSpec'>
   <br>
   <sub><a href="https://rspec.info/">RSpec</a></sub>
   <br>
   <sub>v3.10.0</sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/25589/default_4a6d6ac5f685e81da1aeeb4f9dfe938685fdf940.jpg' alt='Rome'>
+  <br>
+  <sub><a href="https://rome.tools/">Rome</a></sub>
+  <br>
+  <sub></sub>
 </td>
 
 <td align='center'>
@@ -547,9 +709,7 @@ Full tech stack [here](/techstack.md)
   <sub>v4.44.1</sub>
 </td>
 
-</tr>
-<tr>
-  <td align='center'>
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/844/iruTC031.png' alt='gulp'>
   <br>
   <sub><a href="http://gulpjs.com/">gulp</a></sub>
@@ -565,7 +725,9 @@ Full tech stack [here](/techstack.md)
   <sub></sub>
 </td>
 
-<td align='center'>
+</tr>
+<tr>
+  <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png' alt='npm'>
   <br>
   <sub><a href="https://www.npmjs.com/">npm</a></sub>
@@ -576,9 +738,25 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/saas.svg'/> Software as a Service (SaaS) (2)
+## <img src='https://img.stackshare.io/saas.svg'/> Software as a Service (SaaS) (5)
 <table><tr>
   <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/21344/default_6f7cae8b4ddb7a7b52b07db55f14a397f7953656.jpg' alt='Descript'>
+  <br>
+  <sub><a href="https://www.descript.com/">Descript</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/3167/default_2d280843054d533c0a56c573c2e47e2cc1105a88.jpg' alt='Gmail'>
+  <br>
+  <sub><a href="https://mail.google.com">Gmail</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/2542/AqsQWFu-_400x400.jpg' alt='Paperclip'>
   <br>
   <sub><a href="https://github.com/thoughtbot/paperclip">Paperclip</a></sub>
@@ -594,10 +772,18 @@ Full tech stack [here](/techstack.md)
   <sub></sub>
 </td>
 
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/11914/typ.png' alt='Typ'>
+  <br>
+  <sub><a href="https://www.typ-set.com/">Typ</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
 </tr>
 </table>
 
-## Other (12)
+## Other (19)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1432/devise.png' alt='Devise'>
@@ -608,11 +794,35 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/4455/no-img-open-source.png' alt='EC'>
+  <br>
+  <sub><a href="BUG">EC</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/2391/no-img-open-source.png' alt='ECT'>
+  <br>
+  <sub><a href="http://ectjs.com/">ECT</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png' alt='Elasticsearch'>
   <br>
   <sub><a href="https://www.elastic.co/products/elasticsearch">Elasticsearch</a></sub>
   <br>
   <sub>v7.13.1</sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/3795/Frame_Logo_Square.png' alt='Frame'>
+  <br>
+  <sub><a href="https://fra.me">Frame</a></sub>
+  <br>
+  <sub></sub>
 </td>
 
 <td align='center'>
@@ -639,7 +849,9 @@ Full tech stack [here](/techstack.md)
   <sub>v1.9.1</sub>
 </td>
 
-<td align='center'>
+</tr>
+<tr>
+  <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/3208/397ce8027eb036960f00dd5153d41993.png' alt='OpenLayers'>
   <br>
   <sub><a href="http://openlayers.org/">OpenLayers</a></sub>
@@ -663,9 +875,23 @@ Full tech stack [here](/techstack.md)
   <sub></sub>
 </td>
 
-</tr>
-<tr>
-  <td align='center'>
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/1981/n0RKpZjv_normal.jpg' alt='SoundCloud'>
+  <br>
+  <sub><a href="https://soundcloud.com/">SoundCloud</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/9576/default_7b6755d014b3e39c3149d5a18bc3a75d3817f421.png' alt='Timezone'>
+  <br>
+  <sub><a href="https://timezone.io/">Timezone</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/2203/default_9058af6f02375a99f634f537d727e32df92ac262.png' alt='UglifyJS'>
   <br>
   <sub><a href="http://lisperator.net/uglifyjs/">UglifyJS</a></sub>
@@ -674,6 +900,24 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/1150/underscore-js.png' alt='Underscore'>
+  <br>
+  <sub><a href="http://underscorejs.org/">Underscore</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/101756/default_4f2991cba3ec7fdd1cc87de69f4868157b0f2001.png' alt='Vercel AI SDK'>
+  <br>
+  <sub><a href="https://sdk.vercel.ai/docs">Vercel AI SDK</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+</tr>
+<tr>
+  <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/4253/nZXfdUQq_normal.jpg' alt='XSLT'>
   <br>
   <sub><a href="https://en.wikipedia.org/wiki/XSLT">XSLT</a></sub>
@@ -690,9 +934,9 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/5477/no-img-open-source.png' alt='test'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/7802/13189529.png' alt='nci'>
   <br>
-  <sub><a href="test">test</a></sub>
+  <sub><a href="https://github.com/node-ci/nci">nci</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -701,9 +945,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (151)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (181)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (92)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (88)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -715,7 +959,7 @@ Full tech stack [here](/techstack.md)
 |[@types/googlemaps](https://www.npmjs.com/@types/googlemaps)|v3.30.16|11/05/18|Patrick Leary |MIT|N/A|
 |[@types/react](https://www.npmjs.com/@types/react)|v16.4.18|11/10/21|Ken-ichi Ueda |MIT|N/A|
 |[acorn](https://www.npmjs.com/acorn)|v7.1.1|03/18/20|Ken-ichi Ueda |MIT|N/A|
-|[angular](https://www.npmjs.com/angular)|N/A|12/02/15|Ken-ichi Ueda |MIT|N/A|
+|[ai](https://www.npmjs.com/ai)|N/A|12/02/15|Ken-ichi Ueda |N/A|N/A|
 |[angular-route](https://www.npmjs.com/angular-route)|N/A|11/13/15|Patrick Leary |MIT|N/A|
 |[angular-ui-bootstrap](https://www.npmjs.com/angular-ui-bootstrap)|N/A|12/02/15|Ken-ichi Ueda |MIT|N/A|
 |[babel-eslint](https://www.npmjs.com/babel-eslint)|v10.0.1|04/21/20|Patrick Leary |MIT|N/A|
@@ -724,7 +968,6 @@ Full tech stack [here](/techstack.md)
 |[co](https://www.npmjs.com/co)|N/A|12/02/15|Ken-ichi Ueda |MIT|N/A|
 |[coffeelint](https://www.npmjs.com/coffeelint)|N/A|11/13/15|Patrick Leary |MIT|N/A|
 |[color-convert](https://www.npmjs.com/color-convert)|v1.9.3|03/31/20|Patrick Leary |MIT|N/A|
-|[component](https://www.npmjs.com/component)|N/A|12/02/15|Ken-ichi Ueda |MIT|N/A|
 |[conf](https://www.npmjs.com/conf)|N/A|12/14/15|Ken-ichi Ueda |MIT|N/A|
 |[connect](https://www.npmjs.com/connect)|N/A|11/13/15|Patrick Leary |MIT|N/A|
 |[cross-fetch](https://www.npmjs.com/cross-fetch)|v3.1.0|03/16/21|Ken-ichi Ueda |MIT|[CVE-2022-1365](https://github.com/advisories/GHSA-7gc6-qh9x-w6h8) (Moderate)|
@@ -734,7 +977,6 @@ Full tech stack [here](/techstack.md)
 |[eslint-plugin-import](https://www.npmjs.com/eslint-plugin-import)|v2.14.0|04/21/20|Patrick Leary |MIT|N/A|
 |[eslint-plugin-jsx-a11y](https://www.npmjs.com/eslint-plugin-jsx-a11y)|v6.1.2|04/21/20|Patrick Leary |MIT|N/A|
 |[eslint-plugin-react](https://www.npmjs.com/eslint-plugin-react)|v7.11.1|11/10/21|Ken-ichi Ueda |MIT|N/A|
-|[gm](https://www.npmjs.com/gm)|N/A|11/13/15|Patrick Leary |MIT|N/A|
 |[grunt-cli](https://www.npmjs.com/grunt-cli)|v0.1.13|01/22/16|Patrick Leary |MIT|N/A|
 |[grunt-coffeelint](https://www.npmjs.com/grunt-coffeelint)|v0.0.13|11/13/15|Patrick Leary |MIT|N/A|
 |[grunt-contrib-clean](https://www.npmjs.com/grunt-contrib-clean)|v0.6.0|11/13/15|Patrick Leary |MIT|N/A|
@@ -784,7 +1026,7 @@ Full tech stack [here](/techstack.md)
 |[react-dropzone](https://www.npmjs.com/react-dropzone)|v4.2.13|11/10/21|Ken-ichi Ueda |MIT|N/A|
 |[react-redux](https://www.npmjs.com/react-redux)|v4.4.9|11/10/21|Ken-ichi Ueda |MIT|N/A|
 |[read](https://www.npmjs.com/read)|N/A|11/13/15|Patrick Leary |ISC|N/A|
-|[sanitize-html](https://www.npmjs.com/sanitize-html)|v2.3.2|05/06/21|dependabot[bot] |MIT|N/A|
+|[sanitize-html](https://www.npmjs.com/sanitize-html)|v2.3.2|05/06/21|dependabot[bot] |MIT|[CVE-2024-21501](https://github.com/advisories/GHSA-rm97-x556-q36h) (Moderate)|
 |[serialize-javascript](https://www.npmjs.com/serialize-javascript)|v4.0.0|05/06/21|dependabot[bot] |BSD-3-Clause|N/A|
 |[serve](https://www.npmjs.com/serve)|N/A|10/22/15|Ken-ichi Ueda |MIT|N/A|
 |[st](https://www.npmjs.com/st)|N/A|12/02/15|Ken-ichi Ueda |ISC|N/A|
@@ -793,18 +1035,20 @@ Full tech stack [here](/techstack.md)
 |[test](https://www.npmjs.com/test)|N/A|12/04/15|Ken-ichi Ueda |MIT|N/A|
 |[tinycolor2](https://www.npmjs.com/tinycolor2)|v1.4.1|03/31/20|Patrick Leary |MIT|N/A|
 |[uglify](https://www.npmjs.com/uglify)|N/A|01/22/16|Patrick Leary |MIT|N/A|
-|[underscore](https://www.npmjs.com/underscore)|v1.12.1|05/06/21|dependabot[bot] |MIT|N/A|
-|[url](https://www.npmjs.com/url)|v0.11.0|12/02/15|Ken-ichi Ueda |MIT|N/A|
 |[utf8](https://www.npmjs.com/utf8)|v3.0.0|08/06/19|Ken-ichi Ueda |MIT|N/A|
 |[uuid](https://www.npmjs.com/uuid)|v3.3.2|08/06/19|Ken-ichi Ueda |MIT|N/A|
 |[webpack-stream](https://www.npmjs.com/webpack-stream)|v5.2.1|08/13/20|Ken-ichi Ueda |MIT|N/A|
 |[yo](https://www.npmjs.com/yo)|N/A|12/14/15|Ken-ichi Ueda |BSD-2-Clause|N/A|
 
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg'/> RubyGems (59)
+## <img width='24' height='24' src='https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg'/> RubyGems (79)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
+|[actionpack-action_caching](https://rubygems.org/actionpack-action_caching)|v1.2.2|08/25/21|Patrick Leary |MIT|N/A|
+|[actionpack-page_caching](https://rubygems.org/actionpack-page_caching)|v1.2.4|08/25/21|Patrick Leary |MIT|N/A|
+|[activerecord-postgis-adapter](https://rubygems.org/activerecord-postgis-adapter)|v5.2.3|08/16/21|Ken-ichi |BSD-3-Clause|N/A|
+|[activerecord-session_store](https://rubygems.org/activerecord-session_store)|v2.0.0|08/16/21|Ken-ichi |MIT|N/A|
 |[acts-as-taggable-on](https://rubygems.org/acts-as-taggable-on)|v8.1.0|08/16/21|Ken-ichi |MIT|N/A|
 |[ancestry](https://rubygems.org/ancestry)|v4.0.0|08/16/21|Ken-ichi |MIT|N/A|
 |[aws-sdk-s3](https://rubygems.org/aws-sdk-s3)|v1.96.1|01/07/20|Patrick Leary |Apache-2.0|N/A|
@@ -812,40 +1056,56 @@ Full tech stack [here](/techstack.md)
 |[binding_of_caller](https://rubygems.org/binding_of_caller)|v1.0.0|08/16/21|Ken-ichi |MIT|N/A|
 |[byebug](https://rubygems.org/byebug)|v11.1.3|01/27/15|Patrick Leary |BSD-2-Clause|N/A|
 |[capistrano-rails](https://rubygems.org/capistrano-rails)|v1.6.1|09/17/21|Ken-ichi Ueda |MIT|N/A|
+|[capistrano-rvm](https://rubygems.org/capistrano-rvm)|v0.1.2|08/16/21|Ken-ichi |MIT|N/A|
 |[chronic](https://rubygems.org/chronic)|v0.10.2|01/20/19|Patrick Leary |MIT|N/A|
 |[cocoon](https://rubygems.org/cocoon)|v1.2.15|01/20/19|Patrick Leary |MIT|N/A|
 |[coffee-rails](https://rubygems.org/coffee-rails)|v5.0.0|09/17/21|Ken-ichi Ueda |MIT|N/A|
 |[dalli](https://rubygems.org/dalli)|v2.7.11|01/20/19|Patrick Leary |MIT|[CVE-2022-4064](https://github.com/advisories/GHSA-3xg8-cc8f-9wv2) (Low)|
 |[database_cleaner](https://rubygems.org/database_cleaner)|v2.0.1|01/20/19|Patrick Leary |MIT|N/A|
+|[dbf](https://rubygems.org/dbf)|v4.1.3|11/09/10|Ken-ichi Ueda |MIT|N/A|
 |[delayed_job](https://rubygems.org/delayed_job)|v4.1.9|08/16/21|Ken-ichi |MIT|N/A|
 |[delayed_job_active_record](https://rubygems.org/delayed_job_active_record)|v4.1.6|08/16/21|Ken-ichi |MIT|N/A|
+|[devise-encryptable](https://rubygems.org/devise-encryptable)|v0.2.0|08/16/21|Ken-ichi |Apache-2.0|N/A|
+|[devise-i18n](https://rubygems.org/devise-i18n)|v1.10.0|08/16/21|Ken-ichi |MIT|N/A|
 |[diffy](https://rubygems.org/diffy)|v3.4.0|01/20/19|Patrick Leary |MIT|[CVE-2022-33127](https://github.com/advisories/GHSA-5ww9-9qp2-x524) (Critical)|
+|[doorkeeper](https://rubygems.org/doorkeeper)|v5.5.2|08/16/21|Ken-ichi |MIT|[CVE-2023-34246](https://github.com/advisories/GHSA-7w2c-w47h-789w) (Moderate)|
 |[dynamic_form](https://rubygems.org/dynamic_form)|v1.1.4|01/20/19|Patrick Leary |MIT|N/A|
+|[elasticsearch-model](https://rubygems.org/elasticsearch-model)|v7.1.1|09/11/19|Patrick Leary |Apache-2.0|N/A|
+|[elasticsearch-rails](https://rubygems.org/elasticsearch-rails)|v7.1.1|09/17/21|Ken-ichi Ueda |Apache-2.0|N/A|
 |[exifr](https://rubygems.org/exifr)|v1.3.9|07/08/20|Brian |MIT|N/A|
 |[factory_bot_rails](https://rubygems.org/factory_bot_rails)|v5.2.0|09/17/21|Ken-ichi Ueda |MIT|N/A|
 |[faker](https://rubygems.org/faker)|v2.18.0|01/20/19|Patrick Leary |MIT|N/A|
 |[fastimage](https://rubygems.org/fastimage)|v2.2.4|09/11/19|Patrick Leary |MIT|N/A|
 |[friendly_id](https://rubygems.org/friendly_id)|v5.4.2|08/16/21|Ken-ichi |MIT|N/A|
 |[gdata](https://rubygems.org/gdata)|v1.1.2|01/20/19|Patrick Leary |N/A|N/A|
+|[georuby](https://rubygems.org/georuby)|v2.5.2|03/24/21|Ken-ichi Ueda |MIT|N/A|
 |[htmlentities](https://rubygems.org/htmlentities)|v4.3.4|08/16/21|Ken-ichi |MIT|N/A|
+|[i18n-js](https://rubygems.org/i18n-js)|v3.5.0|08/16/21|Ken-ichi |MIT|N/A|
 |[icalendar](https://rubygems.org/icalendar)|v2.7.1|01/20/19|Patrick Leary |Other|N/A|
 |[json](https://rubygems.org/json)|v2.5.1|01/20/19|Patrick Leary |Ruby|N/A|
 |[koala](https://rubygems.org/koala)|v3.0.0|01/20/19|Patrick Leary |MIT|N/A|
 |[machinist](https://rubygems.org/machinist)|v2.0|04/17/19|Grey Baker |MIT|N/A|
 |[newrelic_rpm](https://rubygems.org/newrelic_rpm)|v6.2.0|04/24/19|dependabot[bot] |Apache-2.0|N/A|
-|[nokogiri](https://rubygems.org/nokogiri)|v1.12.5|08/16/21|Ken-ichi |MIT|[CVE-2018-25032](https://github.com/advisories/GHSA-jc36-42cf-vqwj) (High)<br/>[CVE-2022-24836](https://github.com/advisories/GHSA-crjr-9rc5-ghw8) (High)<br/>[CVE-2022-29181](https://github.com/advisories/GHSA-xh29-r2w5-wx8m) (High)<br/>[CVE-2021-30560](https://github.com/advisories/GHSA-59gp-qqm7-cw4j) (High)<br/>[](https://github.com/advisories/GHSA-cgx6-hpwq-fhv5) (High)<br/>[](https://github.com/advisories/GHSA-fq42-c5rg-92c2) (High)<br/>[](https://github.com/advisories/GHSA-gx8x-g87m-h5q6) (High)<br/>[](https://github.com/advisories/GHSA-v6gp-9mmm-c6p5) (High)<br/>[](https://github.com/advisories/GHSA-pxvg-2qj5-37jq) (Moderate)<br/>[](https://github.com/advisories/GHSA-2qc6-mcvw-92cw) (Moderate)<br/>[](https://github.com/advisories/GHSA-xxx9-3xcr-gjj3) (Moderate)|
+|[nokogiri](https://rubygems.org/nokogiri)|v1.12.5|08/16/21|Ken-ichi |MIT|[CVE-2018-25032](https://github.com/advisories/GHSA-jc36-42cf-vqwj) (High)<br/>[](https://github.com/advisories/GHSA-v6gp-9mmm-c6p5) (High)<br/>[CVE-2022-24836](https://github.com/advisories/GHSA-crjr-9rc5-ghw8) (High)<br/>[CVE-2022-29181](https://github.com/advisories/GHSA-xh29-r2w5-wx8m) (High)<br/>[CVE-2021-30560](https://github.com/advisories/GHSA-59gp-qqm7-cw4j) (High)<br/>[](https://github.com/advisories/GHSA-cgx6-hpwq-fhv5) (High)<br/>[](https://github.com/advisories/GHSA-fq42-c5rg-92c2) (High)<br/>[](https://github.com/advisories/GHSA-gx8x-g87m-h5q6) (High)<br/>[](https://github.com/advisories/GHSA-vcc3-rw6f-jv97) (Moderate)<br/>[](https://github.com/advisories/GHSA-xc9x-jj77-9p9j) (Moderate)<br/>[](https://github.com/advisories/GHSA-pxvg-2qj5-37jq) (Moderate)<br/>[](https://github.com/advisories/GHSA-2qc6-mcvw-92cw) (Moderate)<br/>[](https://github.com/advisories/GHSA-xxx9-3xcr-gjj3) (Moderate)|
+|[non-stupid-digest-assets](https://rubygems.org/non-stupid-digest-assets)|v1.0.9|08/16/21|Ken-ichi |MIT|N/A|
 |[omniauth-facebook](https://rubygems.org/omniauth-facebook)|v8.0.0|08/16/21|Ken-ichi |MIT|N/A|
+|[omniauth-google-oauth2](https://rubygems.org/omniauth-google-oauth2)|v0.8.2|08/16/21|Ken-ichi |MIT|N/A|
 |[omniauth-oauth2](https://rubygems.org/omniauth-oauth2)|v1.7.1|08/16/21|Ken-ichi |MIT|N/A|
+|[omniauth-openid](https://rubygems.org/omniauth-openid)|v2.0.0|08/16/21|Ken-ichi |MIT|N/A|
 |[omniauth-twitter](https://rubygems.org/omniauth-twitter)|v1.4.0|08/16/21|Ken-ichi |MIT|N/A|
 |[optimist](https://rubygems.org/optimist)|v3.0.1|10/12/18|Ken-ichi Ueda |MIT|N/A|
 |[patron](https://rubygems.org/patron)|v0.13.3|01/20/19|Patrick Leary |MIT|N/A|
 |[pg](https://rubygems.org/pg)|v1.2.3|11/09/10|Ken-ichi Ueda |BSD-2-Clause|N/A|
 |[rack-cors](https://rubygems.org/rack-cors)|v1.1.1|08/25/21|Patrick Leary |MIT|N/A|
 |[rails-controller-testing](https://rubygems.org/rails-controller-testing)|v1.0.5|09/17/21|Ken-ichi Ueda |MIT|N/A|
+|[rails-html-sanitizer](https://rubygems.org/rails-html-sanitizer)|v1.3.0|09/17/21|Ken-ichi Ueda |MIT|[CVE-2022-23517](https://github.com/advisories/GHSA-5x79-w82f-gw8w) (High)<br/>[CVE-2022-23519](https://github.com/advisories/GHSA-9h9g-93gc-623h) (Moderate)<br/>[CVE-2022-23520](https://github.com/advisories/GHSA-rrfc-7g8p-99q8) (Moderate)<br/>[CVE-2022-23518](https://github.com/advisories/GHSA-mcvf-2q2m-x72m) (Moderate)<br/>[CVE-2022-32209](https://github.com/advisories/GHSA-pg8v-g4xq-hww9) (Moderate)|
 |[rails-i18n](https://rubygems.org/rails-i18n)|v5.1.3|09/17/21|Ken-ichi Ueda |MIT|N/A|
+|[rails-observers](https://rubygems.org/rails-observers)|v0.1.5|09/17/21|Ken-ichi Ueda |MIT|N/A|
+|[rakismet](https://rubygems.org/rakismet)|v1.5.4|01/20/19|Patrick Leary |MIT|N/A|
 |[redcarpet](https://rubygems.org/redcarpet)|v3.5.1|07/07/20|Ken-ichi |MIT|N/A|
 |[rest-client](https://rubygems.org/rest-client)|v2.1.0|01/20/19|Patrick Leary |MIT|N/A|
 |[rgeo](https://rubygems.org/rgeo)|v2.3.0|08/16/21|Ken-ichi |Other|N/A|
+|[rgeo-geojson](https://rubygems.org/rgeo-geojson)|v2.1.1|08/16/21|Ken-ichi |BSD-3-Clause|N/A|
 |[rspec-html-matchers](https://rubygems.org/rspec-html-matchers)|v0.9.4|09/17/21|Ken-ichi Ueda |MIT|N/A|
 |[rspec-rails](https://rubygems.org/rspec-rails)|v5.0.1|09/17/21|Ken-ichi Ueda |MIT|N/A|
 |[rubocop-rails](https://rubygems.org/rubocop-rails)|v2.12.2|09/17/21|Ken-ichi Ueda |MIT|N/A|
@@ -864,6 +1124,32 @@ Full tech stack [here](/techstack.md)
 |[ya2yaml](https://rubygems.org/ya2yaml)|v0.31|01/20/19|Patrick Leary |MIT|N/A|
 |[yajl-ruby](https://rubygems.org/yajl-ruby)|v1.4.1|03/24/21|Ken-ichi Ueda |MIT|[CVE-2022-24795](https://github.com/advisories/GHSA-jj47-x69x-mxrm) (Moderate)|
 |[yui-compressor](https://rubygems.org/yui-compressor)|v0.12.0|01/20/19|Patrick Leary |MIT,BSD-3-Clause|N/A|
+
+
+## <img width='24' height='24' src='https://img.stackshare.io/service/847/66db62603f426a8fc6664081811be6d4.png'/> Bower (12)
+
+|NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
+|:------|:------|:------|:------|:------|:------|
+|[alt](http://bower.io/alt)|N/A|12/04/15|Ken-ichi Ueda |N/A|N/A|
+|[angular](http://bower.io/angular)|N/A|01/22/16|Patrick Leary |N/A|N/A|
+|[angular-bootstrap](http://bower.io/angular-bootstrap)|N/A|01/22/16|Patrick Leary |N/A|N/A|
+|[angular-mocks](http://bower.io/angular-mocks)|N/A|11/26/15|Ken-ichi Ueda |N/A|N/A|
+|[angular-moment](http://bower.io/angular-moment)|v1.0.0|01/22/16|Patrick Leary |N/A|N/A|
+|[angular-resource](http://bower.io/angular-resource)|v1.3.0|01/22/16|Patrick Leary |N/A|N/A|
+|[angular-route](http://bower.io/angular-route)|N/A|01/22/16|Patrick Leary |N/A|N/A|
+|[angularjs](http://bower.io/angularjs)|N/A|11/26/15|Ken-ichi Ueda |N/A|N/A|
+|[benchmark](http://bower.io/benchmark)|N/A|12/04/15|Ken-ichi Ueda |N/A|N/A|
+|[bootstrap](http://bower.io/bootstrap)|N/A|12/02/15|Ken-ichi Ueda |N/A|N/A|
+|[ngInfiniteScroll](http://bower.io/ngInfiniteScroll)|v1.2.0|11/13/15|Patrick Leary |N/A|N/A|
+|[page](http://bower.io/page)|N/A|11/26/15|Ken-ichi Ueda |N/A|N/A|
+
+
+## <img width='24' height='24' src='https://img.stackshare.io/package_manager/1778/default_90cb8b66e85ae5b95928b10bb076ab6a27c7e151.png'/> Packagist (2)
+
+|NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
+|:------|:------|:------|:------|:------|:------|
+|[moment/moment](https://packagist.org/moment/moment)|N/A|01/22/16|Patrick Leary |N/A|N/A|
+|[robloach/component-installer](https://packagist.org/robloach/component-installer)|N/A|01/22/16|Patrick Leary |N/A|N/A|
 
 <br/>
 <div align='center'>
